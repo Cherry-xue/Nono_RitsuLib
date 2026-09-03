@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://cdgagal4swa8x"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_1s1be"]
+load_path = "res://.godot/imported/NonoBg.png-15e6c8f3bc3a5f48b3ce0a45b4293884.ctex"
+
+[node name="NonoBg" type="Control"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -576.0
+offset_top = -307.0
+offset_right = 1984.0
+offset_bottom = 893.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(1280, 600)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(620.91406, 417.50867)
+scale = Vector2(1.4250865, 1.425088)
+texture = SubResource("CompressedTexture2D_1s1be")
+offset = Vector2(12.885498, -5.1542053)
