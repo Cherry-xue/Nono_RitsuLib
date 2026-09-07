@@ -38,13 +38,13 @@ public class NonoNoBag : NonoRelics
             await SecondaryResourceCmd.Gain(Owner, ModResources.ManaId, DynamicVars["Mana"].IntValue);
         }
     }
-    //在每回合开始时，如果玩家是该遗物的拥有者,则调用SecondaryResourceCmd.Gain命令，增加玩家的魔力数量，数量等同于DynamicVars["Mana"]的整数值。
-    //public override async Task AfterRoomEntered(AbstractRoom room)
-    //{
-    //    if (room is CombatRoom)
-    //    {
-    //        await PowerCmd.Apply<EmberStrengthPower>(new ThrowingPlayerChoiceContext(), Owner.Creature, 10, Owner.Creature, null);
-    //    }
-    //}
+    //在每回合开始时，如果玩家是该遗物的拥有者,则调用SecondaryResourceCmd.Gain命令，增加玩家的魔力数量，数量等同于DynamicVars["Mana"] 的整数值。
+    public override async Task AfterRoomEntered(AbstractRoom room)
+    {
+        if (room is CombatRoom)
+        {
+            await PowerCmd.Apply<EmberStrengthPower>(new ThrowingPlayerChoiceContext(), Owner.Creature, 10, Owner.Creature, null);
+        }
+    }
     //当玩家进入战斗房间时，触发遗物的闪光效果，并调用PowerCmd.Apply命令，给玩家施加10层EmberStrengthPower。
 }

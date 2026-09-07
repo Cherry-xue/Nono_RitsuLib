@@ -6,9 +6,10 @@ using MegaCrit.Sts2.Core.ValueProps;
 
 namespace Nono.NonoCode.Cards;
 
+// 强化防御-获得格挡
 public class StrengthenDefenses() : NonoCard
-    (1, CardType.Skill, CardRarity.Token, TargetType.Self,true)
-//定义卡牌基本属性：1能量，能力，Token稀有度，目标为自己
+    (1, CardType.Skill, CardRarity.Token, TargetType.Self,false)
+//定义卡牌基本属性：1能量，能力，Token稀有度，目标为自己,不在图鉴中显示
 {
     public override bool CanBeGeneratedInCombat => false;
     //定义不能在战斗中生成

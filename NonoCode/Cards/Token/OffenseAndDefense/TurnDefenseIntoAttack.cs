@@ -6,9 +6,10 @@ using MegaCrit.Sts2.Core.ValueProps;
 
 namespace Nono.NonoCode.Cards;
 
+// 让守为攻-对目标造成伤害
 public class TurnDefenseIntoAttack() : NonoCard
-    (1, CardType.Attack, CardRarity.Token, TargetType.AnyEnemy,true)
-//定义卡牌基本属性：1能量，攻击，Token稀有度，目标为任意敌人
+    (1, CardType.Attack, CardRarity.Token, TargetType.AnyEnemy,false)
+//定义卡牌基本属性：1能量，攻击，Token稀有度，目标为任意敌人,不在图鉴中显示
 {
     public override bool CanBeGeneratedInCombat => false;
     //定义不能在战斗中生成

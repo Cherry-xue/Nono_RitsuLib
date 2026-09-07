@@ -27,9 +27,11 @@ public class OffenseAndDefense() : NonoCard
     //定义可变参数:Block-格挡值，初始值为5;Damage-伤害值，初始值为5;魔力增幅次数，初始值为0;魔力增幅阈值，初始值为5
     protected override IEnumerable<IHoverTip> AdditionalHoverTips =>
     [
-        HoverTipFactory.FromKeyword(NonoKeywords.Choice)
+        HoverTipFactory.FromKeyword(NonoKeywords.Choice),
+        HoverTipFactory.FromCard<TurnDefenseIntoAttack>(),
+        HoverTipFactory.FromCard<StrengthenDefenses>()
     ];
-    //定义提示:提示抉择的相关信息
+    //定义提示:提示抉择的相关信息,提示抉择的卡牌<让守为攻>和<强化防御>的相关信息
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         //如果魔力增幅大于等于5

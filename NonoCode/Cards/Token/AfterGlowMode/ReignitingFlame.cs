@@ -6,9 +6,10 @@ using Nono.NonoCode.Powers;
 
 namespace Nono.NonoCode.Cards;
 
+// 重燃之焰-切换余晖模态为重燃之焰,或强化当前模态
 public class ReignitingFlame() : NonoCard
-    (0, CardType.Power, CardRarity.Token, TargetType.Self,true)
-//定义卡牌基本属性：0能量，技能，Token稀有度，目标为自身
+    (0, CardType.Power, CardRarity.Token, TargetType.Self,false)
+//定义卡牌基本属性：0能量，技能，Token稀有度，目标为自身,不在图鉴中显示
 {
     public override bool CanBeGeneratedInCombat => false;
     //定义不能在战斗中生成
