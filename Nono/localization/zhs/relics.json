@@ -1,5 +1,5 @@
 {
-  "NONO_RELIC_NONO_NO_BAG.description": "获得[blue]{PotionSlots}[/blue]个药水栏位。\n回合开始时,获得{singleManaIcon}。\n设置余晖模式为[blue]余烬之力[/blue]",
+  "NONO_RELIC_NONO_NO_BAG.description": "获得[blue]{PotionSlots}[/blue]个药水栏位。\n回合开始时,获得{Mana:secondaryResourceIcons()}。\n设置余晖模式为[blue]余烬之力[/blue]",
   "NONO_RELIC_NONO_NO_BAG.flavor": "[red]这个遗物的细节将在未来揭晓……[/red]",
   "NONO_RELIC_NONO_NO_BAG.title": "诺诺的单肩包"
 }

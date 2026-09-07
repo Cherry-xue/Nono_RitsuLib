@@ -3,6 +3,7 @@ using HarmonyLib;
 using MegaCrit.Sts2.Core.Logging;
 using MegaCrit.Sts2.Core.Modding;
 using MegaCrit.Sts2.Core.Models.Cards;
+using Nono.NonoCode.SecondaryResources;
 using STS2RitsuLib;
 using STS2RitsuLib.Interop;
 
@@ -26,5 +27,6 @@ public class MainFile
         // RitsuLibFramework.RegisterArchaicToothTranscendenceMapping<TestCard, Shiv>();
         // 欧洛巴斯之触可以把初始遗物升级
         //RitsuLibFramework.RegisterTouchOfOrobasRefinementMapping<TestRelic, Akabeko>();
+        ModResources.Register();
     }
 }

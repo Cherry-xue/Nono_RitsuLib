@@ -8,6 +8,7 @@ using MegaCrit.Sts2.Core.ValueProps;
 
 namespace Nono.NonoCode.Potions;
 
+// 药水形状的黑曜石-可对任意敌人使用，造成伤害
 public class PotionShapedObsidian : NonoPotions
 {
     public override PotionRarity Rarity => PotionRarity.Token;

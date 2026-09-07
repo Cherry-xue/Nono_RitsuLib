@@ -10,6 +10,8 @@ namespace Nono.NonoCode.Cards;
 
 // 注册成人物起始卡，后面是数量。不需要删除即可。
 [RegisterCharacterStarterCard(typeof(NonoCharacter), 4)]
+
+// 打击-对目标造成伤害
 public class NonoAttack() : NonoCard
     (1,CardType.Attack, CardRarity.Basic,TargetType.AnyEnemy, true)
     //定义卡牌基本属性：1能量，攻击，基础稀有度，目标为任意敌人

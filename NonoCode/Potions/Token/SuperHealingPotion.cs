@@ -7,6 +7,7 @@ using MegaCrit.Sts2.Core.Localization.DynamicVars;
 
 namespace Nono.NonoCode.Potions;
 
+// 超级治疗药水-可对任何玩家使用，提供治疗
 public class SuperHealingPotion : NonoPotions
 {
     public override PotionRarity Rarity => PotionRarity.Token;

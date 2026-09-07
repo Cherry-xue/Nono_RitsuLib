@@ -11,6 +11,7 @@ using MegaCrit.Sts2.Core.ValueProps;
 
 namespace Nono.NonoCode.Potions;
 
+// 仿制爆炸安瓿-对所有敌人造成伤害
 public sealed class LesserExplosiveAmpoule : NonoPotions
 {
     public override PotionRarity Rarity => PotionRarity.Token;

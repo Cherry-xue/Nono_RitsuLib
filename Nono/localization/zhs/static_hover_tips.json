@@ -1,4 +1,6 @@
 {
   "MANA_COUNTER.title": "魔力",
-  "MANA_COUNTER.description": "你当前的魔力（{singleManaIcon}）值。诺诺的魔法需要{singleManaIcon}才能打出。\n[gold]诺诺改进了魔法,可以使用辉星（{singleStarIcon}）代替魔力（{singleManaIcon}）使用[/gold]"
+  "MANA_COUNTER.description": "你当前的魔力（{singleManaIcon}）值。诺诺的魔法需要{singleManaIcon}才能打出。\n[gold]诺诺改进了魔法,可以使用辉星（{singleStarIcon}）代替魔力（{singleManaIcon}）使用[/gold]",
+  "NONO_SECONDARY_RESOURCE_MANA.title": "魔力",
+  "NONO_SECONDARY_RESOURCE_MANA.description": "你当前的魔力（{secondaryResource:secondaryResourceIcons(mana,1)}）值。诺诺的魔法需要{secondaryResource:secondaryResourceIcons(mana,1)}才能打出。"
 }

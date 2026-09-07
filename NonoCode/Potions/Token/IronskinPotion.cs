@@ -9,6 +9,7 @@ using MegaCrit.Sts2.Core.ValueProps;
 
 namespace Nono.NonoCode.Potions;
 
+// 铁皮药水-可对任何玩家使用，给予格挡
 public class IronskinPotion : NonoPotions
 {
     public override PotionRarity Rarity => PotionRarity.Token;

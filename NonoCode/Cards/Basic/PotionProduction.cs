@@ -11,12 +11,15 @@ namespace Nono.NonoCode.Cards;
 
 // 注册成人物起始卡，后面是数量。不需要删除即可。
 [RegisterCharacterStarterCard(typeof(NonoCharacter), 1)]
+
+// 药水制作-随机制作次级药水
 public class PotionProduction() : NonoCard
     (1, CardType.Skill, CardRarity.Basic, TargetType.Self, true)
 //定义卡牌基本属性：1能量，技能，基础稀有度，目标为自身
 {
     public override List<CardKeyword> CanonicalKeywords => [
-        CardKeyword.Exhaust
+        CardKeyword.Exhaust,
+        NonoKeywords.PotionMaking
     ];
     //卡牌关键词:消耗,药水制作
     protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar("PotionCount", 1m)];

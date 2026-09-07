@@ -13,6 +13,7 @@ using STS2RitsuLib.Combat.HealthBars;
 
 namespace Nono.NonoCode.Powers;
 
+// 燃烧-在回合开始时,受到伤害,并减少层数
 public sealed class BurnPower : NonoPower, IHealthBarForecastSource
 {
     public override PowerType Type => PowerType.Debuff;
@@ -48,7 +49,7 @@ public sealed class BurnPower : NonoPower, IHealthBarForecastSource
     //在能力数值改变后调用SetDamage方法来更新伤害数值
     public int CalculateTotalDamageNextTurn()
     {
-        decimal num = default(decimal);
+        decimal num = default;
         int num2 = Amount;
         for (int i = 0; i < num2; i++)
         {

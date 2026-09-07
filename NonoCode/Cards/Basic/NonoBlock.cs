@@ -10,6 +10,8 @@ namespace Nono.NonoCode.Cards;
 
 // 注册成人物起始卡，后面是数量。不需要删除即可。
 [RegisterCharacterStarterCard(typeof(NonoCharacter), 4)]
+
+// 格挡-获得格挡
 public class NonoBlock() : NonoCard
     (1,CardType.Skill, CardRarity.Basic,TargetType.Self, true)
     //定义卡牌基本属性：1能量，能力，基础稀有度，目标为自己

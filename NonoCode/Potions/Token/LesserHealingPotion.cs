@@ -7,6 +7,7 @@ using MegaCrit.Sts2.Core.Localization.DynamicVars;
 
 namespace Nono.NonoCode.Potions;
 
+// 弱效治疗药水-可对任意玩家使用,提供治疗
 public class LesserHealingPotion : NonoPotions
 {
     public override PotionRarity Rarity => PotionRarity.Token;

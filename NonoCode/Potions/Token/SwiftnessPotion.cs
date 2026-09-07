@@ -9,6 +9,7 @@ using MegaCrit.Sts2.Core.Models.Powers;
 
 namespace Nono.NonoCode.Potions;
 
+// 速度药水-可对任意玩家使用，增加敏捷
 public class SwiftnessPotion : NonoPotions
 {
     public override PotionRarity Rarity => PotionRarity.Token;

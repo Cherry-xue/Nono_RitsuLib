@@ -11,6 +11,7 @@ using MegaCrit.Sts2.Core.ValueProps;
 
 namespace Nono.NonoCode.Potions;
 
+// 仿制火焰药水-可对任意敌人使用，造成伤害
 public sealed class LesserFirePotion : NonoPotions
 {
     public override PotionRarity Rarity => PotionRarity.Token;

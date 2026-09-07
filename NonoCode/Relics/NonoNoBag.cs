@@ -3,9 +3,11 @@ using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.Entities.Relics;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
-//using Nono.NonoCode.Powers;
+using Nono.NonoCode.Powers;
 using MegaCrit.Sts2.Core.Rooms;
 using Nono.NonoCode.Characters;
+using Nono.NonoCode.SecondaryResources;
+using STS2RitsuLib.Combat.SecondaryResources;
 using STS2RitsuLib.Interop.AutoRegistration;
 
 namespace Nono.NonoCode.Relics;
@@ -22,7 +24,7 @@ public class NonoNoBag : NonoRelics
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
         new DynamicVar("PotionSlots", 3m),//定义一个DynamicVar，表示玩家的药水槽数量，初始值为3。
-        new StarsVar(1),//定义一个StarsVar，表示玩家的星星数量，初始值为1。
+        SecondaryResourceVars.For("Mana", ModResources.ManaId, 1)//定义一个DynamicVar，表示玩家的魔力数量，初始值为1。
     ];
     public override async Task AfterObtained()
     {
@@ -33,10 +35,10 @@ public class NonoNoBag : NonoRelics
     {
         if (player == Owner)
         {
-            await PlayerCmd.GainStars(DynamicVars.Stars.BaseValue, Owner);
+            await SecondaryResourceCmd.Gain(Owner, ModResources.ManaId, DynamicVars["Mana"].IntValue);
         }
     }
-    //在每回合开始时，如果玩家是该遗物的拥有者，调用PlayerCmd.GainStars命令，增加玩家的星星数量，数量等同于DynamicVars.Stars的基础值。
+    //在每回合开始时，如果玩家是该遗物的拥有者,则调用SecondaryResourceCmd.Gain命令，增加玩家的魔力数量，数量等同于DynamicVars["Mana"]的整数值。
     //public override async Task AfterRoomEntered(AbstractRoom room)
     //{
     //    if (room is CombatRoom)

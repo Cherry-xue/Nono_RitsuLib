@@ -9,6 +9,7 @@ using MegaCrit.Sts2.Core.Nodes.Rooms;
 
 namespace Nono.NonoCode.Potions;
 
+// 弱效迅捷药水-可对任意玩家使用,抽取卡牌
 public sealed class LesserSwiftPotion : NonoPotions
 {
     public override PotionRarity Rarity => PotionRarity.Token;

@@ -11,6 +11,8 @@ namespace Nono.NonoCode.Cards;
 
 // 注册成人物起始卡，后面是数量。不需要删除即可。
 [RegisterCharacterStarterCard(typeof(NonoCharacter), 1)]
+
+// 药水合成-获得格挡并尝试进行药水合成
 public class PotionConflate() : NonoCard
     (1, CardType.Skill, CardRarity.Basic, TargetType.Self, true)
 {
@@ -22,6 +24,7 @@ public class PotionConflate() : NonoCard
     ];
     //定义可变参数：ConflateCount-合成药水次数，初始值为1
     public override List<CardKeyword> CanonicalKeywords => [
+        NonoKeywords.PotionConflation
     ];
     //卡牌关键词:药水合成
     public override bool GainsBlock => true;

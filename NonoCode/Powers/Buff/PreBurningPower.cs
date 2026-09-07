@@ -6,9 +6,9 @@ using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.ValueProps;
 
-namespace Nono.NonoCode.Powers.Buff;
+namespace Nono.NonoCode.Powers;
 
-// 预燃,对首个目标造成伤害时,施加等同于层数的燃烧
+// 预燃-对首个目标造成伤害时,施加等同于层数的燃烧
 public sealed class PreBurningPower : NonoPower
 {
     public override PowerType Type => PowerType.Buff;
