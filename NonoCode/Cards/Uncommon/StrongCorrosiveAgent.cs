@@ -25,12 +25,12 @@ public class StrongCorrosiveAgent() : NonoCard
     //定义提示：提示内容为ArtifactPower和Block的相关信息
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await CreatureCmd.LoseBlock(cardPlay.Target, cardPlay.Target.Block);
+        await CreatureCmd.LoseBlock(choiceContext, cardPlay.Target, cardPlay.Target.Block, Owner.Creature);
         if (cardPlay.Target.HasPower<ArtifactPower>())
         {
             await PowerCmd.Remove<ArtifactPower>(cardPlay.Target);
         }
-        await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this).Targeting(cardPlay.Target).Execute(choiceContext);
+        await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this, cardPlay).Targeting(cardPlay.Target).Execute(choiceContext);
     }
     //卡牌效果：使目标失去所有格挡，如果目标具有人工制品，则移除人工制品，对目标造成等同于DynamicVars.Damage数值的伤害
     protected override void OnUpgrade()

@@ -27,7 +27,7 @@ public sealed class LesserFirePotion : NonoPotions
         AssertValidForTargetedPotion(target);
         DamageVar damage = DynamicVars.Damage;
         NCombatRoom.Instance.CombatVfxContainer.AddChildSafely(NGroundFireVfx.Create(target));
-        await CreatureCmd.Damage(choiceContext, target, damage.BaseValue, damage.Props, Owner.Creature, null);
+        await CreatureCmd.Damage(choiceContext, target, damage.BaseValue, damage.Props, Owner.Creature, null, null);
     }
     //药水使用时，先检查目标是否有效，然后对目标播放地面火焰特效，并对目标造成伤害，伤害数值等同于DynamicVars.Damage的数值
 }

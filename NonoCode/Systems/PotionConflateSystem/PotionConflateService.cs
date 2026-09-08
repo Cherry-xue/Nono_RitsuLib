@@ -1,4 +1,3 @@
-#nullable enable
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.Models;
@@ -7,12 +6,12 @@ namespace Nono.NonoCode.PotionConflateSystem;
 
 public static class PotionConflateService
 {
-	public static PotionRecipe? FindFirstCraftableRecipe(IEnumerable<PotionModel?> potionSlots)
+	public static PotionRecipe FindFirstCraftableRecipe(IEnumerable<PotionModel> potionSlots)
 	{
 		return PotionRecipeTable.Recipes.FirstOrDefault((PotionRecipe r) => r.CanCraft(potionSlots));
 	}
 
-	public static async Task<bool> TryCraft(Player owner, IEnumerable<PotionModel?> potionSlots, PotionRecipe? recipe)
+	public static async Task<bool> TryCraft(Player owner, IEnumerable<PotionModel> potionSlots, PotionRecipe recipe)
 	{
 		if (owner == null || potionSlots == null || recipe == null)
 		{

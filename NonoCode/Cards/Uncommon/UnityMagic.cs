@@ -34,7 +34,7 @@ public class UnityMagic : NonoCard
     //定义提示:提示内容为魔力增幅的相关信息
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await DamageCmd.Attack(DynamicVars.CalculatedDamage).FromCard(this).TargetingAllOpponents(CombatState).Execute(choiceContext);
+        await DamageCmd.Attack(DynamicVars.CalculatedDamage).FromCard(this, cardPlay).TargetingAllOpponents(CombatState).Execute(choiceContext);
 
         if (DynamicVars["AmplificationCount"].BaseValue >= DynamicVars["Amplification"].BaseValue)
         {

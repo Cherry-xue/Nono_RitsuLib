@@ -22,7 +22,7 @@ public class ManaBurst : NonoCard
     public override IEnumerable<CardKeyword> CanonicalKeywords => [NonoKeywords.MagicCard];
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this).TargetingAllOpponents(CombatState)
+        await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this, cardPlay).TargetingAllOpponents(CombatState)
             .WithHitCount(3)
             .Execute(choiceContext);
     }

@@ -32,7 +32,7 @@ public sealed class LesserExplosiveAmpoule : NonoPotions
             NCombatRoom.Instance.CombatVfxContainer.AddChildSafely(NFireSmokePuffVfx.Create(item));
         }
         await Cmd.CustomScaledWait(0.2f, 0.3f);
-        await CreatureCmd.Damage(choiceContext, targets, damage.BaseValue, damage.Props, player, null);
+        await CreatureCmd.Damage(choiceContext, targets, damage.BaseValue, damage.Props, player, null, null);
     }
     //药水使用时，先获取所有可攻击的敌人，然后对每个敌人播放火焰烟雾特效，等待0.2到0.3秒后，对所有敌人造成伤害，伤害数值等同于DynamicVars.Damage的数值
 }

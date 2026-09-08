@@ -35,7 +35,7 @@ public class FireBall : NonoCard
     //定义提示：提示内容为BurnPower的相关信息
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this).Targeting(cardPlay.Target).Execute(choiceContext);
+        await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this, cardPlay).Targeting(cardPlay.Target).Execute(choiceContext);
         await PowerCmd.Apply<BurnPower>(choiceContext, cardPlay.Target, DynamicVars["Burn"].BaseValue, Owner.Creature, this);
     }
     //卡牌效果：对目标造成等同于DynamicVars.Damage数值的伤害

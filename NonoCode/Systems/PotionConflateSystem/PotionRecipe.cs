@@ -1,4 +1,3 @@
-#nullable enable
 using MegaCrit.Sts2.Core.Models;
 
 namespace Nono.NonoCode.PotionConflateSystem;
@@ -15,7 +14,7 @@ public class PotionRecipe
 		ResultPotionType = resultPotionType;
 	}
 
-	public bool CanCraft(IEnumerable<PotionModel?> potionSlots)
+	public bool CanCraft(IEnumerable<PotionModel> potionSlots)
 	{
 		Dictionary<Type, int> dictionary = (from p in potionSlots.OfType<PotionModel>()
 			group p by ((object)p).GetType()).ToDictionary((IGrouping<Type, PotionModel> g) => g.Key, (IGrouping<Type, PotionModel> g) => g.Count());

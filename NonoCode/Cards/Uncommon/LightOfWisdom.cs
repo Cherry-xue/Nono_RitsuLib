@@ -22,7 +22,7 @@ public class LightOfWisdom() : NonoCard
     //定义卡牌关键词：魔法牌
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PlayerCmd.GainStars(DynamicVars.Stars.BaseValue, Owner);
+        await SecondaryResourceCmd.Gain(Owner, ModResources.ManaId, DynamicVars["Mana"].IntValue);
         await CardPileCmd.Draw(choiceContext, DynamicVars.Cards.BaseValue, Owner);
     }
     //卡牌效果:获得等同于DynamicVars.Stars数值的辉星，并抽取等同于DynamicVars.Cards数值的卡牌

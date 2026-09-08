@@ -54,7 +54,7 @@ public sealed class BurnPower : NonoPower, IHealthBarForecastSource
         for (int i = 0; i < num2; i++)
         {
             decimal damage = Amount * 2 - i;
-            damage = Hook.ModifyDamage(Owner.CombatState.RunState, Owner.CombatState, Owner, null, damage, ValueProp.Unblockable | ValueProp.Unpowered, null, ModifyDamageHookType.All, CardPreviewMode.None, out IEnumerable<AbstractModel> _);
+            damage = Hook.ModifyDamage(Owner.CombatState.RunState, Owner.CombatState, Owner, null, damage, ValueProp.Unblockable | ValueProp.Unpowered, null, null, ModifyDamageHookType.All, CardPreviewMode.None, out IEnumerable<AbstractModel> _);
             num += damage;
         }
         return (int)num;

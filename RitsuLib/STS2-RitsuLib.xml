@@ -196,130 +196,34 @@
             <param name="inputSpan">The text being scanned by the regular expression.</param>
             <returns>true if the regular expression matches at the current position; otherwise, false.</returns>
         </member>
-        <member name="T:System.Text.RegularExpressions.Generated.WindowsStackPathRegex_6">
-            <summary>Custom <see cref="T:System.Text.RegularExpressions.Regex"/>-derived type for the WindowsStackPathRegex method.</summary>
-        </member>
-        <member name="F:System.Text.RegularExpressions.Generated.WindowsStackPathRegex_6.Instance">
-            <summary>Cached, thread-safe singleton instance.</summary>
-        </member>
-        <member name="M:System.Text.RegularExpressions.Generated.WindowsStackPathRegex_6.#ctor">
-            <summary>Initializes the instance.</summary>
-        </member>
-        <member name="T:System.Text.RegularExpressions.Generated.WindowsStackPathRegex_6.RunnerFactory">
-            <summary>Provides a factory for creating <see cref="T:System.Text.RegularExpressions.RegexRunner"/> instances to be used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
-        </member>
-        <member name="M:System.Text.RegularExpressions.Generated.WindowsStackPathRegex_6.RunnerFactory.CreateInstance">
-            <summary>Creates an instance of a <see cref="T:System.Text.RegularExpressions.RegexRunner"/> used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
-        </member>
-        <member name="T:System.Text.RegularExpressions.Generated.WindowsStackPathRegex_6.RunnerFactory.Runner">
-            <summary>Provides the runner that contains the custom logic implementing the specified regular expression.</summary>
-        </member>
-        <member name="M:System.Text.RegularExpressions.Generated.WindowsStackPathRegex_6.RunnerFactory.Runner.Scan(System.ReadOnlySpan{System.Char})">
-            <summary>Scan the <paramref name="inputSpan"/> starting from base.runtextstart for the next match.</summary>
-            <param name="inputSpan">The text being scanned by the regular expression.</param>
-        </member>
-        <member name="M:System.Text.RegularExpressions.Generated.WindowsStackPathRegex_6.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan{System.Char})">
-            <summary>Search <paramref name="inputSpan"/> starting from base.runtextpos for the next location a match could possibly start.</summary>
-            <param name="inputSpan">The text being scanned by the regular expression.</param>
-            <returns>true if a possible match was found; false if no more matches are possible.</returns>
-        </member>
-        <member name="M:System.Text.RegularExpressions.Generated.WindowsStackPathRegex_6.RunnerFactory.Runner.TryMatchAtCurrentPosition(System.ReadOnlySpan{System.Char})">
-            <summary>Determine whether <paramref name="inputSpan"/> at base.runtextpos is a match for the regular expression.</summary>
-            <param name="inputSpan">The text being scanned by the regular expression.</param>
-            <returns>true if the regular expression matches at the current position; otherwise, false.</returns>
-        </member>
-        <member name="T:System.Text.RegularExpressions.Generated.UnixStackPathRegex_7">
-            <summary>Custom <see cref="T:System.Text.RegularExpressions.Regex"/>-derived type for the UnixStackPathRegex method.</summary>
-        </member>
-        <member name="F:System.Text.RegularExpressions.Generated.UnixStackPathRegex_7.Instance">
-            <summary>Cached, thread-safe singleton instance.</summary>
-        </member>
-        <member name="M:System.Text.RegularExpressions.Generated.UnixStackPathRegex_7.#ctor">
-            <summary>Initializes the instance.</summary>
-        </member>
-        <member name="T:System.Text.RegularExpressions.Generated.UnixStackPathRegex_7.RunnerFactory">
-            <summary>Provides a factory for creating <see cref="T:System.Text.RegularExpressions.RegexRunner"/> instances to be used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
-        </member>
-        <member name="M:System.Text.RegularExpressions.Generated.UnixStackPathRegex_7.RunnerFactory.CreateInstance">
-            <summary>Creates an instance of a <see cref="T:System.Text.RegularExpressions.RegexRunner"/> used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
-        </member>
-        <member name="T:System.Text.RegularExpressions.Generated.UnixStackPathRegex_7.RunnerFactory.Runner">
-            <summary>Provides the runner that contains the custom logic implementing the specified regular expression.</summary>
-        </member>
-        <member name="M:System.Text.RegularExpressions.Generated.UnixStackPathRegex_7.RunnerFactory.Runner.Scan(System.ReadOnlySpan{System.Char})">
-            <summary>Scan the <paramref name="inputSpan"/> starting from base.runtextstart for the next match.</summary>
-            <param name="inputSpan">The text being scanned by the regular expression.</param>
-        </member>
-        <member name="M:System.Text.RegularExpressions.Generated.UnixStackPathRegex_7.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan{System.Char})">
-            <summary>Search <paramref name="inputSpan"/> starting from base.runtextpos for the next location a match could possibly start.</summary>
-            <param name="inputSpan">The text being scanned by the regular expression.</param>
-            <returns>true if a possible match was found; false if no more matches are possible.</returns>
-        </member>
-        <member name="M:System.Text.RegularExpressions.Generated.UnixStackPathRegex_7.RunnerFactory.Runner.TryMatchAtCurrentPosition(System.ReadOnlySpan{System.Char})">
-            <summary>Determine whether <paramref name="inputSpan"/> at base.runtextpos is a match for the regular expression.</summary>
-            <param name="inputSpan">The text being scanned by the regular expression.</param>
-            <returns>true if the regular expression matches at the current position; otherwise, false.</returns>
-        </member>
-        <member name="T:System.Text.RegularExpressions.Generated.WindowsPathRegex_8">
-            <summary>Custom <see cref="T:System.Text.RegularExpressions.Regex"/>-derived type for the WindowsPathRegex method.</summary>
-        </member>
-        <member name="F:System.Text.RegularExpressions.Generated.WindowsPathRegex_8.Instance">
-            <summary>Cached, thread-safe singleton instance.</summary>
-        </member>
-        <member name="M:System.Text.RegularExpressions.Generated.WindowsPathRegex_8.#ctor">
-            <summary>Initializes the instance.</summary>
-        </member>
-        <member name="T:System.Text.RegularExpressions.Generated.WindowsPathRegex_8.RunnerFactory">
-            <summary>Provides a factory for creating <see cref="T:System.Text.RegularExpressions.RegexRunner"/> instances to be used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
-        </member>
-        <member name="M:System.Text.RegularExpressions.Generated.WindowsPathRegex_8.RunnerFactory.CreateInstance">
-            <summary>Creates an instance of a <see cref="T:System.Text.RegularExpressions.RegexRunner"/> used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
-        </member>
-        <member name="T:System.Text.RegularExpressions.Generated.WindowsPathRegex_8.RunnerFactory.Runner">
-            <summary>Provides the runner that contains the custom logic implementing the specified regular expression.</summary>
-        </member>
-        <member name="M:System.Text.RegularExpressions.Generated.WindowsPathRegex_8.RunnerFactory.Runner.Scan(System.ReadOnlySpan{System.Char})">
-            <summary>Scan the <paramref name="inputSpan"/> starting from base.runtextstart for the next match.</summary>
-            <param name="inputSpan">The text being scanned by the regular expression.</param>
-        </member>
-        <member name="M:System.Text.RegularExpressions.Generated.WindowsPathRegex_8.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan{System.Char})">
-            <summary>Search <paramref name="inputSpan"/> starting from base.runtextpos for the next location a match could possibly start.</summary>
-            <param name="inputSpan">The text being scanned by the regular expression.</param>
-            <returns>true if a possible match was found; false if no more matches are possible.</returns>
-        </member>
-        <member name="M:System.Text.RegularExpressions.Generated.WindowsPathRegex_8.RunnerFactory.Runner.TryMatchAtCurrentPosition(System.ReadOnlySpan{System.Char})">
-            <summary>Determine whether <paramref name="inputSpan"/> at base.runtextpos is a match for the regular expression.</summary>
-            <param name="inputSpan">The text being scanned by the regular expression.</param>
-            <returns>true if the regular expression matches at the current position; otherwise, false.</returns>
-        </member>
-        <member name="T:System.Text.RegularExpressions.Generated.GetSingleReferenceRegex_9">
+        <member name="T:System.Text.RegularExpressions.Generated.GetSingleReferenceRegex_6">
             <summary>Custom <see cref="T:System.Text.RegularExpressions.Regex"/>-derived type for the GetSingleReferenceRegex method.</summary>
         </member>
-        <member name="F:System.Text.RegularExpressions.Generated.GetSingleReferenceRegex_9.Instance">
+        <member name="F:System.Text.RegularExpressions.Generated.GetSingleReferenceRegex_6.Instance">
             <summary>Cached, thread-safe singleton instance.</summary>
         </member>
-        <member name="M:System.Text.RegularExpressions.Generated.GetSingleReferenceRegex_9.#ctor">
+        <member name="M:System.Text.RegularExpressions.Generated.GetSingleReferenceRegex_6.#ctor">
             <summary>Initializes the instance.</summary>
         </member>
-        <member name="T:System.Text.RegularExpressions.Generated.GetSingleReferenceRegex_9.RunnerFactory">
+        <member name="T:System.Text.RegularExpressions.Generated.GetSingleReferenceRegex_6.RunnerFactory">
             <summary>Provides a factory for creating <see cref="T:System.Text.RegularExpressions.RegexRunner"/> instances to be used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
         </member>
-        <member name="M:System.Text.RegularExpressions.Generated.GetSingleReferenceRegex_9.RunnerFactory.CreateInstance">
+        <member name="M:System.Text.RegularExpressions.Generated.GetSingleReferenceRegex_6.RunnerFactory.CreateInstance">
             <summary>Creates an instance of a <see cref="T:System.Text.RegularExpressions.RegexRunner"/> used by methods on <see cref="T:System.Text.RegularExpressions.Regex"/>.</summary>
         </member>
-        <member name="T:System.Text.RegularExpressions.Generated.GetSingleReferenceRegex_9.RunnerFactory.Runner">
+        <member name="T:System.Text.RegularExpressions.Generated.GetSingleReferenceRegex_6.RunnerFactory.Runner">
             <summary>Provides the runner that contains the custom logic implementing the specified regular expression.</summary>
         </member>
-        <member name="M:System.Text.RegularExpressions.Generated.GetSingleReferenceRegex_9.RunnerFactory.Runner.Scan(System.ReadOnlySpan{System.Char})">
+        <member name="M:System.Text.RegularExpressions.Generated.GetSingleReferenceRegex_6.RunnerFactory.Runner.Scan(System.ReadOnlySpan{System.Char})">
             <summary>Scan the <paramref name="inputSpan"/> starting from base.runtextstart for the next match.</summary>
             <param name="inputSpan">The text being scanned by the regular expression.</param>
         </member>
-        <member name="M:System.Text.RegularExpressions.Generated.GetSingleReferenceRegex_9.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan{System.Char})">
+        <member name="M:System.Text.RegularExpressions.Generated.GetSingleReferenceRegex_6.RunnerFactory.Runner.TryFindNextPossibleStartingPosition(System.ReadOnlySpan{System.Char})">
             <summary>Search <paramref name="inputSpan"/> starting from base.runtextpos for the next location a match could possibly start.</summary>
             <param name="inputSpan">The text being scanned by the regular expression.</param>
             <returns>true if a possible match was found; false if no more matches are possible.</returns>
         </member>
-        <member name="M:System.Text.RegularExpressions.Generated.GetSingleReferenceRegex_9.RunnerFactory.Runner.TryMatchAtCurrentPosition(System.ReadOnlySpan{System.Char})">
+        <member name="M:System.Text.RegularExpressions.Generated.GetSingleReferenceRegex_6.RunnerFactory.Runner.TryMatchAtCurrentPosition(System.ReadOnlySpan{System.Char})">
             <summary>Determine whether <paramref name="inputSpan"/> at base.runtextpos is a match for the regular expression.</summary>
             <param name="inputSpan">The text being scanned by the regular expression.</param>
             <returns>true if the regular expression matches at the current position; otherwise, false.</returns>
@@ -335,9 +239,6 @@
         </member>
         <member name="F:System.Text.RegularExpressions.Generated.Utilities.s_asciiLettersAndDigits">
             <summary>Supports searching for characters in or not in "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz".</summary>
-        </member>
-        <member name="F:System.Text.RegularExpressions.Generated.Utilities.s_ascii_260000840000000000000000000000">
-            <summary>Supports searching for characters in or not in "\t\n\r\"'".</summary>
         </member>
         <member name="F:System.Text.RegularExpressions.Generated.Utilities.s_ascii_FF03FEFFFF8700000000">
             <summary>Supports searching for characters in or not in "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_".</summary>
@@ -4552,7 +4453,7 @@
                 <para xml:lang="zh-CN">在映射的章节音乐进入原生局内音乐代理前加载并启动它。</para>
             </summary>
         </member>
-        <member name="M:STS2RitsuLib.Audio.Patches.NRunMusicControllerGuidMappedStudioEventsPatches.UpdateMusic.Prefix(MegaCrit.Sts2.Core.Nodes.Audio.NRunMusicController,MegaCrit.Sts2.Core.Runs.IRunState,System.String@,Godot.Node)">
+        <member name="M:STS2RitsuLib.Audio.Patches.NRunMusicControllerGuidMappedStudioEventsPatches.UpdateMusic.Prefix(MegaCrit.Sts2.Core.Nodes.Audio.NRunMusicController,MegaCrit.Sts2.Core.Runs.IRunState,System.String@,System.String@,Godot.Node)">
             <summary>
                 <para xml:lang="en">
                     Mirrors native deterministic track selection and act-bank loading, then handles mapped tracks
@@ -6107,18 +6008,45 @@
             <summary>
                 <para xml:lang="en">
                     Gets whether this pile has manual-card-play capability through the base-game targeting, action
-                    queue, resource payment, card hooks, and destination-pile flow. This value also initializes
+                    queue, hand-consistent evaluation and resource payment, card hooks, and destination-pile flow.
+                    Hand identity during cost display, play validation, and payment is an invariant of this capability,
+                    not a separately selectable behavior. Play-enabled cards automatically participate in core
+                    empty-hand and playable-card queries, and are always represented by card nodes. This value also initializes
                     <see cref="P:STS2RitsuLib.CardPiles.Nodes.NModExtraHand.CardPlayEnabled" /> for each new container. The default is
                     <see langword="true" />. Runtime availability can temporarily disable and restore granted
                     capability, but cannot enable a definition that disallows card play.
                 </para>
                 <para xml:lang="zh-CN">
-                    获取此牌堆是否具备通过游戏原有目标选择、行动队列、资源支付、卡牌钩子与目标牌堆流程手动
-                    出牌的能力。该值也会初始化每个新容器的 <see cref="P:STS2RitsuLib.CardPiles.Nodes.NModExtraHand.CardPlayEnabled" />。默认值为
+                    获取此牌堆是否具备通过游戏原有目标选择、行动队列、与手牌一致的求值及资源支付、卡牌钩子
+                    与目标牌堆流程手动出牌的能力。费用显示、出牌验证及支付期间的手牌身份是此能力必须保证的
+                    不变量，而不是可单独选择的行为。允许打出的卡牌会自动参与核心空手及可打出卡牌查询，并始终
+                    由卡牌节点表示。该值也会初始化每个新容器的
+                    <see cref="P:STS2RitsuLib.CardPiles.Nodes.NModExtraHand.CardPlayEnabled" />。默认值为
                     <see langword="true" />。运行时可用性可以临时禁用并恢复已授予的能力，但不能启用定义中未
                     允许出牌的牌堆。
                 </para>
             </summary>
+        </member>
+        <member name="P:STS2RitsuLib.CardPiles.ModCardPileExtraHandSpec.Behaviors">
+            <summary>
+                <para xml:lang="en">
+                    Gets the optional base-game hand semantics applied to cards in this pile. The default does not
+                    add semantics beyond those required by <see cref="P:STS2RitsuLib.CardPiles.ModCardPileExtraHandSpec.AllowCardPlay" />. Presentation,
+                    multiplayer synchronization, vanilla action execution, and card-node animation remain mandatory
+                    invariants rather than optional behaviors. Extra-hand cards never count toward the base-game
+                    maximum hand size or reduce its draw capacity.
+                </para>
+                <para xml:lang="zh-CN">
+                    获取应用于此牌堆卡牌的可选游戏原有手牌语义。默认不添加
+                    <see cref="P:STS2RitsuLib.CardPiles.ModCardPileExtraHandSpec.AllowCardPlay" /> 所要求语义之外的行为。表现、多人同步、原版行动执行及卡牌节点
+                    动画属于必须保证的不变量，而不是可选行为。额外手牌卡牌不会计入游戏原有最大手牌数量，也不会
+                    减少其抽牌容量。
+                </para>
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+                <para xml:lang="en">The assigned value contains an undefined behavior flag.</para>
+                <para xml:lang="zh-CN">所赋值包含未定义的行为标志。</para>
+            </exception>
         </member>
         <member name="P:STS2RitsuLib.CardPiles.ModCardPileExtraHandSpec.DisabledOffset">
             <summary>
@@ -7013,10 +6941,12 @@
             <summary>
                 <para xml:lang="en">
                     Gets whether cards in an <see cref="F:STS2RitsuLib.CardPiles.ModCardPileUiStyle.ExtraHand" /> pile are represented by
-                    card nodes.
+                    card nodes. <see cref="P:STS2RitsuLib.CardPiles.ModCardPileExtraHandSpec.AllowCardPlay" /> forces this behavior for a
+                    play-enabled extra hand.
                 </para>
                 <para xml:lang="zh-CN">
                     获取 <see cref="F:STS2RitsuLib.CardPiles.ModCardPileUiStyle.ExtraHand" /> 牌堆中的卡牌是否显示为卡牌节点。
+                    对允许打出的额外手牌，<see cref="P:STS2RitsuLib.CardPiles.ModCardPileExtraHandSpec.AllowCardPlay" /> 会强制启用此行为。
                 </para>
             </summary>
         </member>
@@ -7495,6 +7425,55 @@
                 </para>
             </summary>
         </member>
+        <member name="T:STS2RitsuLib.CardPiles.ModExtraHandBehavior">
+            <summary>
+                <para xml:lang="en">
+                    Configures optional base-game hand semantics for cards stored in an extra-hand pile.
+                </para>
+                <para xml:lang="zh-CN">配置额外手牌牌堆中的卡牌所参与的可选游戏原有手牌语义。</para>
+            </summary>
+            <remarks>
+                <para xml:lang="en">
+                    These values do not control presentation quality, multiplayer synchronization, action ownership,
+                    resource-payment correctness, or card-node reuse. RitsuLib preserves those invariants whenever the
+                    corresponding operation is enabled. Extra-hand cards remain separate from the base-game maximum
+                    hand size and draw capacity under every combination.
+                </para>
+                <para xml:lang="zh-CN">
+                    这些值不控制表现质量、多人同步、行动归属、资源支付正确性或卡牌节点复用。只要启用了对应操作，
+                    RitsuLib 就会始终保证这些不变量。无论采用何种组合，额外手牌卡牌都与游戏原有最大手牌数量及
+                    抽牌容量相互独立。
+                </para>
+            </remarks>
+        </member>
+        <member name="F:STS2RitsuLib.CardPiles.ModExtraHandBehavior.None">
+            <summary>
+                <para xml:lang="en">Does not add optional hand semantics.</para>
+                <para xml:lang="zh-CN">不添加可选手牌语义。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.CardPiles.ModExtraHandBehavior.ApplyHandTurnEndRules">
+            <summary>
+                <para xml:lang="en">
+                    Applies base-game end-of-turn in-hand and Ethereal processing to cards in the pile.
+                </para>
+                <para xml:lang="zh-CN">对牌堆中的卡牌应用游戏原有回合结束手牌效果及虚无处理。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.CardPiles.ModExtraHandBehavior.FlushWithHand">
+            <summary>
+                <para xml:lang="en">
+                    Includes cards in the base-game end-of-turn retain and discard flush.
+                </para>
+                <para xml:lang="zh-CN">在游戏原有回合结束保留及弃牌清理中包含这些卡牌。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.CardPiles.ModExtraHandBehavior.FullHand">
+            <summary>
+                <para xml:lang="en">Enables every currently defined optional hand behavior.</para>
+                <para xml:lang="zh-CN">启用当前定义的全部可选手牌行为。</para>
+            </summary>
+        </member>
         <member name="T:STS2RitsuLib.CardPiles.ModExtraHandCardContext">
             <summary>
                 <para xml:lang="en">
@@ -7664,11 +7643,13 @@
             </summary>
             <remarks>
                 <para xml:lang="en">
-                    A card is temporarily moved to the player's hand while targeting is active. Canceling targeting
-                    or the queued action restores the card to its original pile and position.
+                    The card remains in its extra-hand pile while targeting and queued. The vanilla manual-play checks
+                    treat that pile as hand-compatible only inside the patched play path. Canceling targeting or the
+                    queued action returns the same card node to the extra hand without changing model ownership.
                 </para>
                 <para xml:lang="zh-CN">
-                    目标选择期间会将卡牌暂时移入玩家手牌。取消目标选择或已排队动作时，会将卡牌恢复到原牌堆及原位置。
+                    目标选择及排队期间，卡牌会保留在额外手牌堆中。仅在修补后的出牌路径内，原版手动出牌检查会将该牌堆
+                    视为与手牌兼容。取消目标选择或已排队动作时，同一个卡牌节点会退回额外手牌，且不改变模型归属。
                 </para>
             </remarks>
         </member>
@@ -8352,9 +8333,19 @@
             Cached name for the '_Process' method.
             </summary>
         </member>
-        <member name="F:STS2RitsuLib.CardPiles.Nodes.NModExtraHand.MethodName.TryBeginHandEntryAnimation">
+        <member name="F:STS2RitsuLib.CardPiles.Nodes.NModExtraHand.MethodName.FlashPlayableHolders">
             <summary>
-            Cached name for the 'TryBeginHandEntryAnimation' method.
+            Cached name for the 'FlashPlayableHolders' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.CardPiles.Nodes.NModExtraHand.MethodName.AddFromVanillaHandFlow">
+            <summary>
+            Cached name for the 'AddFromVanillaHandFlow' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.CardPiles.Nodes.NModExtraHand.MethodName.MoveCardNodeToNewPileBeforeTween">
+            <summary>
+            Cached name for the 'MoveCardNodeToNewPileBeforeTween' method.
             </summary>
         </member>
         <member name="F:STS2RitsuLib.CardPiles.Nodes.NModExtraHand.MethodName.DetachPile">
@@ -8753,9 +8744,12 @@
         <member name="T:STS2RitsuLib.CardPiles.Patches.ModExtraHandCardPlayCancelPatch">
             <summary>
                 <para xml:lang="en">
-                    Restores a queued extra-hand card to its source pile when the vanilla action is canceled.
+                    Routes playable extra-hand cards through the vanilla manual-play queue without moving them into the
+                    backend hand, and returns the same card node to its extra hand when a queued action is canceled.
                 </para>
-                <para xml:lang="zh-CN">原版动作取消时，将已排队的额外手牌卡牌恢复到来源牌堆。</para>
+                <para xml:lang="zh-CN">
+                    使可打出的额外手牌无需移入后端手牌即可使用原版手动出牌队列，并在已排队动作取消时将同一卡牌节点退回额外手牌。
+                </para>
             </summary>
         </member>
         <member name="T:STS2RitsuLib.Cards.BeforeCardOnPlayContext">
@@ -9947,12 +9941,12 @@
         <member name="M:STS2RitsuLib.Cards.DynamicVars.ModCardVars.ComputedDamage(System.String,System.Decimal,System.Func{MegaCrit.Sts2.Core.Models.CardModel,MegaCrit.Sts2.Core.Entities.Creatures.Creature,System.Decimal},MegaCrit.Sts2.Core.ValueProps.ValueProp)">
             <summary>
                 <para xml:lang="en">
-                    Creates a computed damage variable whose previews pass through <see cref="M:MegaCrit.Sts2.Core.Hooks.Hook.ModifyDamage(MegaCrit.Sts2.Core.Runs.IRunState,MegaCrit.Sts2.Core.Combat.ICombatState,MegaCrit.Sts2.Core.Entities.Creatures.Creature,MegaCrit.Sts2.Core.Entities.Creatures.Creature,System.Decimal,MegaCrit.Sts2.Core.ValueProps.ValueProp,MegaCrit.Sts2.Core.Models.CardModel,MegaCrit.Sts2.Core.Hooks.ModifyDamageHookType,MegaCrit.Sts2.Core.Entities.Cards.CardPreviewMode,System.Collections.Generic.IEnumerable{MegaCrit.Sts2.Core.Models.AbstractModel}@)" /> when
+                    Creates a computed damage variable whose previews pass through <see cref="M:MegaCrit.Sts2.Core.Hooks.Hook.ModifyDamage(MegaCrit.Sts2.Core.Runs.IRunState,MegaCrit.Sts2.Core.Combat.ICombatState,MegaCrit.Sts2.Core.Entities.Creatures.Creature,MegaCrit.Sts2.Core.Entities.Creatures.Creature,System.Decimal,MegaCrit.Sts2.Core.ValueProps.ValueProp,MegaCrit.Sts2.Core.Models.CardModel,MegaCrit.Sts2.Core.Entities.Cards.CardPlay,MegaCrit.Sts2.Core.Hooks.ModifyDamageHookType,MegaCrit.Sts2.Core.Entities.Cards.CardPreviewMode,System.Collections.Generic.IEnumerable{MegaCrit.Sts2.Core.Models.AbstractModel}@)" /> when
                     global hooks are enabled and run and combat context are available.
                 </para>
                 <para xml:lang="zh-CN">
                     创建计算型伤害变量；启用全局钩子且存在一局游戏与战斗上下文时，预览值会经过
-                    <see cref="M:MegaCrit.Sts2.Core.Hooks.Hook.ModifyDamage(MegaCrit.Sts2.Core.Runs.IRunState,MegaCrit.Sts2.Core.Combat.ICombatState,MegaCrit.Sts2.Core.Entities.Creatures.Creature,MegaCrit.Sts2.Core.Entities.Creatures.Creature,System.Decimal,MegaCrit.Sts2.Core.ValueProps.ValueProp,MegaCrit.Sts2.Core.Models.CardModel,MegaCrit.Sts2.Core.Hooks.ModifyDamageHookType,MegaCrit.Sts2.Core.Entities.Cards.CardPreviewMode,System.Collections.Generic.IEnumerable{MegaCrit.Sts2.Core.Models.AbstractModel}@)" />。
+                    <see cref="M:MegaCrit.Sts2.Core.Hooks.Hook.ModifyDamage(MegaCrit.Sts2.Core.Runs.IRunState,MegaCrit.Sts2.Core.Combat.ICombatState,MegaCrit.Sts2.Core.Entities.Creatures.Creature,MegaCrit.Sts2.Core.Entities.Creatures.Creature,System.Decimal,MegaCrit.Sts2.Core.ValueProps.ValueProp,MegaCrit.Sts2.Core.Models.CardModel,MegaCrit.Sts2.Core.Entities.Cards.CardPlay,MegaCrit.Sts2.Core.Hooks.ModifyDamageHookType,MegaCrit.Sts2.Core.Entities.Cards.CardPreviewMode,System.Collections.Generic.IEnumerable{MegaCrit.Sts2.Core.Models.AbstractModel}@)" />。
                 </para>
             </summary>
         </member>
@@ -10834,6 +10828,12 @@
                 <para xml:lang="zh-CN">获取或设置此次命中传给伤害命令的来源卡牌。</para>
             </summary>
         </member>
+        <member name="P:STS2RitsuLib.Combat.AttackHits.AttackHitContext.CardPlay">
+            <summary>
+                <para xml:lang="en">Gets or sets the card play passed to the damage command for this hit.</para>
+                <para xml:lang="zh-CN">获取或设置此次命中传给伤害命令的卡牌打出上下文。</para>
+            </summary>
+        </member>
         <member name="P:STS2RitsuLib.Combat.AttackHits.AttackHitContext.Targets">
             <summary>
                 <para xml:lang="en">Gets or sets the targets passed to the damage command for this hit.</para>
@@ -10858,7 +10858,7 @@
                 <para xml:lang="zh-CN">将每次攻击命中钩子分发给游戏钩子监听器和附加的模型能力。</para>
             </summary>
         </member>
-        <member name="M:STS2RitsuLib.Combat.AttackHits.AttackHitHook.DamageWithAttackHitHooks(MegaCrit.Sts2.Core.GameActions.Multiplayer.PlayerChoiceContext,System.Collections.Generic.IEnumerable{MegaCrit.Sts2.Core.Entities.Creatures.Creature},System.Decimal,MegaCrit.Sts2.Core.ValueProps.ValueProp,MegaCrit.Sts2.Core.Entities.Creatures.Creature,MegaCrit.Sts2.Core.Models.CardModel,MegaCrit.Sts2.Core.Commands.Builders.AttackCommand,System.Int32,System.Decimal)">
+        <member name="M:STS2RitsuLib.Combat.AttackHits.AttackHitHook.DamageWithAttackHitHooks(MegaCrit.Sts2.Core.GameActions.Multiplayer.PlayerChoiceContext,System.Collections.Generic.IEnumerable{MegaCrit.Sts2.Core.Entities.Creatures.Creature},System.Decimal,MegaCrit.Sts2.Core.ValueProps.ValueProp,MegaCrit.Sts2.Core.Entities.Creatures.Creature,MegaCrit.Sts2.Core.Models.CardModel,MegaCrit.Sts2.Core.Entities.Cards.CardPlay,MegaCrit.Sts2.Core.Commands.Builders.AttackCommand,System.Int32,System.Decimal)">
             <summary>
                 <para xml:lang="en">Executes damage with per-hit hooks for the <c>AttackCommand.Execute</c> transpiler.</para>
                 <para xml:lang="zh-CN">供 <c>AttackCommand.Execute</c> 指令转换器调用，在伤害前后运行单次命中钩子。</para>
@@ -11612,10 +11612,10 @@
         <member name="T:STS2RitsuLib.Combat.CardTargeting.Patches.ModelDbInitCustomTargetTypeRegistrationPatch">
             <summary>
                 <para xml:lang="en">
-                    Registers the built-in custom target predicates after <see cref="M:MegaCrit.Sts2.Core.Models.ModelDb.Init" />.
+                    Registers the built-in custom target predicates after <see cref="M:MegaCrit.Sts2.Core.Models.ModelDb.Init(System.Type[])" />.
                 </para>
                 <para xml:lang="zh-CN">
-                    在 <see cref="M:MegaCrit.Sts2.Core.Models.ModelDb.Init" /> 完成后注册内置的自定义目标谓词。
+                    在 <see cref="M:MegaCrit.Sts2.Core.Models.ModelDb.Init(System.Type[])" /> 完成后注册内置的自定义目标谓词。
                 </para>
             </summary>
         </member>
@@ -14699,6 +14699,11 @@
             Defines the source generated JSON serialization contract metadata for a given type.
             </summary>
         </member>
+        <member name="P:STS2RitsuLib.Combat.Rewards.RewardExtJsonContext.CardRewardRerollExtData">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
         <member name="P:STS2RitsuLib.Combat.Rewards.RewardExtJsonContext.LinkedRewardChildExtData">
             <summary>
             Defines the source generated JSON serialization contract metadata for a given type.
@@ -14730,6 +14735,16 @@
             </summary>
         </member>
         <member name="P:STS2RitsuLib.Combat.Rewards.RewardExtJsonContext.String">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Combat.Rewards.RewardExtJsonContext.UInt32">
+            <summary>
+            Defines the source generated JSON serialization contract metadata for a given type.
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Combat.Rewards.RewardExtJsonContext.NullableUInt32">
             <summary>
             Defines the source generated JSON serialization contract metadata for a given type.
             </summary>
@@ -20240,19 +20255,23 @@
         <member name="F:STS2RitsuLib.Content.ActEnterPoolModeKind.Uniform">
             <summary>
                 <para xml:lang="en">
-                    Selects uniformly from the act already occupying the slot and all eligible candidates.
+                    Contributes weight 1 for eligible candidates. The act already occupying the slot always has weight 1.
+                    Other mods may contribute weighted candidates to the same slot.
                 </para>
-                <para xml:lang="zh-CN">在槽位中已有的章节与全部符合条件的候选章节之间进行均匀选择。</para>
+                <para xml:lang="zh-CN">
+                    为有效候选贡献权重 1。槽位中已有章节始终具有权重 1。其他模组可向同一槽位贡献加权候选。
+                </para>
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Content.ActEnterPoolModeKind.Weighted">
             <summary>
                 <para xml:lang="en">
-                    Selects by weight from eligible candidates and the optional baseline. Candidates with
-                    non-positive weights are excluded.
+                    Selects by weight among eligible candidates and the existing act, whose weight is fixed at 1.
+                    Candidates with non-finite or non-positive weights are excluded.
                 </para>
                 <para xml:lang="zh-CN">
-                    按权重从符合条件的候选章节与可选基线中选择。权重不大于零的候选章节会被排除。
+                    在有效候选与已有章节之间按权重选择，已有章节的权重固定为 1。
+                    非有限值或非正权重的候选被排除。
                 </para>
             </summary>
         </member>
@@ -20735,56 +20754,208 @@
                 </para>
             </summary>
         </member>
+        <member name="M:STS2RitsuLib.Content.ModContentRegistry.RegisterActEnterForcePool(System.Int32,System.Int32,System.Func{STS2RitsuLib.Content.ActEnterResolveContext,System.Boolean},System.ValueTuple{System.Type,System.Double}[])">
+            <summary>
+                <para xml:lang="en">
+                    Registers a forced act-entry rule that selects only from the supplied weighted candidates.
+                    Equal weights give equal probabilities. The existing act is included only when explicitly supplied.
+                </para>
+                <para xml:lang="zh-CN">
+                    注册一条仅从指定加权候选中选择的强制章节进入规则。
+                    相同权重对应相同概率；只有显式提供时才会包含已有章节。
+                </para>
+            </summary>
+            <remarks>
+                <para xml:lang="en">
+                    Register before content freezes. No ordinary pool declaration is required. Each call adds an
+                    independent rule owned by this mod for the process lifetime; there is no per-run registration or removal.
+                    The array is copied, validated and ordered by type name. Candidate types must be concrete, closed
+                    act models; custom acts must also be registered as content before model initialization.
+                </para>
+                <para xml:lang="zh-CN">
+                    必须在内容冻结前注册，无须声明普通池。每次调用为本模组添加一条独立规则，
+                    在进程存续期间有效，不提供每局注册或移除。候选数组会被复制、验证并按类型名排序。
+                    候选必须是具体、封闭的章节模型类型；自定义章节还须在模型初始化前注册为内容。
+                </para>
+                <para xml:lang="en">
+                    At act entry, this rule competes with all single-act and candidate-set force rules.
+                    Higher priority wins; equal priorities use earlier registration. Eligibility runs once when the rule
+                    is reached, outside the registration lock, and must be deterministic and side-effect-free.
+                    False continues to the next rule; if no rule matches, ordinary pool selection runs.
+                    A winning rule draws once from the run's RNG, or does not draw for a single candidate.
+                    Losing rules do not draw or evaluate candidate weights. Exceptions propagate before act replacement.
+                    Selecting the existing act preserves its instance and still prevents lower rules and the ordinary pool.
+                </para>
+                <para xml:lang="zh-CN">
+                    进入章节时，此规则与所有单章节和候选集合强制规则共同竞争。
+                    优先级较高者胜出，同优先级时先注册者胜出。检查到此规则时，条件回调在注册锁外执行一次，
+                    必须确定且无副作用。返回 false 时继续检查下一条规则；均不命中时进入普通池。
+                    胜出的规则使用本局随机数源抽选一次，单候选不消耗随机数；未胜出的规则不抽选或计算候选权重。
+                    异常在替换章节前向上传播。选中已有章节时保留其实例，且仍阻止后续规则及普通池执行。
+                </para>
+            </remarks>
+            <param name="slotIndex">
+                <para xml:lang="en">The non-negative, zero-based act slot; 1 is the second act.</para>
+                <para xml:lang="zh-CN">非负、从零开始的章节槽位；1 表示第二幕。</para>
+            </param>
+            <param name="priority">
+                <para xml:lang="en">The rule priority, compared with all force rules, including other mods' rules.</para>
+                <para xml:lang="zh-CN">规则优先级，与包括其他模组在内的所有强制规则比较。</para>
+            </param>
+            <param name="eligibility">
+                <para xml:lang="en">A non-null callback deciding whether this entire candidate set applies.</para>
+                <para xml:lang="zh-CN">决定整个候选集合是否适用的非空回调。</para>
+            </param>
+            <param name="candidates">
+                <para xml:lang="en">1 to 256 distinct, non-null act types and their finite, strictly positive weights.</para>
+                <para xml:lang="zh-CN">1 到 256 个互不重复的非空章节类型，以及各自有限且严格大于零的权重。</para>
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+                <para xml:lang="en">The callback, array, or a candidate type is null.</para>
+                <para xml:lang="zh-CN">回调、数组或某个候选类型为空。</para>
+            </exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+                <para xml:lang="en">The slot is negative or the candidate count is outside [1, 256].</para>
+                <para xml:lang="zh-CN">槽位为负数或候选数量不在 [1, 256] 范围内。</para>
+            </exception>
+            <exception cref="T:System.ArgumentException">
+                <para xml:lang="en">A candidate type is invalid or duplicated, or a weight is non-finite or non-positive.</para>
+                <para xml:lang="zh-CN">候选类型无效或重复，或权重不是有限正数。</para>
+            </exception>
+            <exception cref="T:System.InvalidOperationException">
+                <para xml:lang="en">Content registration is frozen.</para>
+                <para xml:lang="zh-CN">内容注册已冻结。</para>
+            </exception>
+        </member>
         <member name="M:STS2RitsuLib.Content.ModContentRegistry.RegisterActEnterUniformPool(System.Int32)">
             <summary>
                 <para xml:lang="en">
-                    Declares a uniform act-entry pool for <paramref name="slotIndex" />. Register this before
-                    adding candidates.
+                    Declares this mod's uniform contributions to a zero-based slot before content freezes. Repeating the
+                    declaration is harmless; switching this mod's mode throws. Other mods may use weighted candidates in the
+                    same slot. Uniform candidates contribute weight 1, and the existing act always has fixed weight 1.
                 </para>
                 <para xml:lang="zh-CN">
-                    为 <paramref name="slotIndex" /> 声明均匀章节进入池。必须先声明再添加候选章节。
+                    在内容冻结前为本模组声明从零开始的槽位的均匀候选。重复声明无影响，切换本模组的模式会抛出异常。其他模组可在同一槽位使用加权候选。均匀候选与已有章节均以权重 1 参与抽选，已有章节的权重不可修改。
                 </para>
             </summary>
+            <remarks>
+                <para xml:lang="en">
+                    Registrations remain active for the process lifetime; there is no per-run registration or removal.
+                </para>
+                <para xml:lang="zh-CN">
+                    注册在进程存续期间有效，不提供每局注册或移除。
+                </para>
+            </remarks>
         </member>
         <member name="M:STS2RitsuLib.Content.ModContentRegistry.RegisterActEnterUniformPoolCandidate``1(System.Int32,System.Func{STS2RitsuLib.Content.ActEnterResolveContext,System.Boolean})">
             <summary>
                 <para xml:lang="en">
-                    Adds an eligible candidate to the uniform pool for <paramref name="slotIndex" />.
+                    Adds a weight-1 candidate to this mod's previously declared uniform pool before content freezes.
+                    Registering the same type twice in one mod and slot throws. Different mods' contributions for the same
+                    type merge by maximum eligible weight. Candidates matching the existing act are ignored.
                 </para>
                 <para xml:lang="zh-CN">
-                    为 <paramref name="slotIndex" /> 的均匀池添加符合条件的候选章节。
+                    在内容冻结前向本模组已声明的均匀池添加权重为 1 的候选。同一模组在同一槽位重复注册类型会抛出异常；不同模组的同类型候选取最大有效权重。与已有章节相同的候选被忽略。
                 </para>
             </summary>
+            <remarks>
+                <para xml:lang="en">
+                    Registrations remain active for the process lifetime; there is no per-run registration or removal.
+                </para>
+                <para xml:lang="zh-CN">
+                    注册在进程存续期间有效，不提供每局注册或移除。
+                </para>
+                <para xml:lang="en">
+                    Callbacks execute outside the registration lock in ordinal, case-insensitive mod-ID order, then ordinal
+                    type-name order. Each runs at most once per resolution, with eligibility before weight. They must be
+                    deterministic and side-effect-free; exceptions propagate before act replacement.
+                </para>
+                <para xml:lang="zh-CN">
+                    回调于注册锁外按模组 ID（不区分大小写）、类型名的序数顺序执行，每次解析至多执行一次，先判断条件再计算权重。回调必须确定且无副作用；异常在替换章节前向上传播。
+                </para>
+            </remarks>
         </member>
         <member name="M:STS2RitsuLib.Content.ModContentRegistry.RegisterActEnterWeightedPool(System.Int32)">
             <summary>
                 <para xml:lang="en">
-                    Declares a weighted act-entry pool for <paramref name="slotIndex" />. Register this before
-                    adding candidates or a baseline.
+                    Declares this mod's weighted contributions to a zero-based slot before content freezes. Repeating the
+                    declaration is harmless; switching this mod's mode throws. Other mods may contribute uniform candidates.
+                    The existing act always participates with fixed weight 1 alongside eligible candidates.
                 </para>
                 <para xml:lang="zh-CN">
-                    为 <paramref name="slotIndex" /> 声明加权章节进入池。必须先声明再添加候选章节或基线。
+                    在内容冻结前为本模组声明从零开始的槽位的加权候选。重复声明无影响，切换本模组的模式会抛出异常。其他模组可贡献均匀候选。已有章节始终以固定权重 1 与有效候选共同参与抽选。
                 </para>
             </summary>
+            <remarks>
+                <para xml:lang="en">
+                    Registrations remain active for the process lifetime; there is no per-run registration or removal.
+                </para>
+                <para xml:lang="zh-CN">
+                    注册在进程存续期间有效，不提供每局注册或移除。
+                </para>
+            </remarks>
         </member>
         <member name="M:STS2RitsuLib.Content.ModContentRegistry.RegisterActEnterWeightedPoolCandidate``1(System.Int32,System.Func{STS2RitsuLib.Content.ActEnterResolveContext,System.Boolean},System.Func{STS2RitsuLib.Content.ActEnterResolveContext,System.Double})">
             <summary>
                 <para xml:lang="en">
-                    Adds an eligible candidate and its weight provider to a weighted act-entry pool.
+                    Adds a candidate to this mod's previously declared weighted pool before content freezes. Registering the
+                    same type twice in one mod and slot throws. Different mods' contributions for the same type merge by
+                    maximum eligible weight. Candidates matching the existing act are ignored. Non-finite and non-positive
+                    weights are excluded.
                 </para>
-                <para xml:lang="zh-CN">向加权章节进入池添加符合条件的候选章节及其权重提供器。</para>
+                <para xml:lang="zh-CN">
+                    在内容冻结前向本模组已声明的加权池添加候选。同一模组在同一槽位重复注册类型会抛出异常；不同模组的同类型候选取最大有效权重。与已有章节相同的候选被忽略。非有限值和非正权重的候选被排除。
+                </para>
             </summary>
+            <remarks>
+                <para xml:lang="en">
+                    Registrations remain active for the process lifetime; there is no per-run registration or removal.
+                </para>
+                <para xml:lang="zh-CN">
+                    注册在进程存续期间有效，不提供每局注册或移除。
+                </para>
+                <para xml:lang="en">
+                    Callbacks execute outside the registration lock in ordinal, case-insensitive mod-ID order, then ordinal
+                    type-name order. Each runs at most once per resolution, with eligibility before weight. They must be
+                    deterministic and side-effect-free; exceptions propagate before act replacement.
+                </para>
+                <para xml:lang="zh-CN">
+                    回调于注册锁外按模组 ID（不区分大小写）、类型名的序数顺序执行，每次解析至多执行一次，先判断条件再计算权重。回调必须确定且无副作用；异常在替换章节前向上传播。
+                </para>
+            </remarks>
         </member>
         <member name="M:STS2RitsuLib.Content.ModContentRegistry.RegisterActEnterWeightedPoolBaseline(System.Int32,System.Func{STS2RitsuLib.Content.ActEnterResolveContext,System.Double})">
             <summary>
                 <para xml:lang="en">
-                    Registers the weight of the act already occupying <paramref name="slotIndex" />. Weighted
-                    pools have no implicit baseline.
+                    Retained for compatibility. The existing act always participates with weight 1.
+                    The supplied callback is validated for null, but is neither stored nor invoked.
+                    This call does not declare a pool or change its candidates.
                 </para>
                 <para xml:lang="zh-CN">
-                    注册 <paramref name="slotIndex" /> 中已有章节的权重。加权池没有隐式基线。
+                    为兼容旧调用而保留。已有章节始终以权重 1 参与抽选。
+                    传入的回调仅检查非空，不保存也不执行；此调用不声明池，也不改变候选。
                 </para>
             </summary>
+            <param name="slotIndex">
+                <para xml:lang="en">The non-negative, zero-based act slot.</para>
+                <para xml:lang="zh-CN">非负、从零开始的章节槽位。</para>
+            </param>
+            <param name="weight">
+                <para xml:lang="en">An unused, non-null legacy weight provider.</para>
+                <para xml:lang="zh-CN">不再使用的非空旧式权重提供器。</para>
+            </param>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+                <para xml:lang="en">The slot is negative.</para>
+                <para xml:lang="zh-CN">槽位为负数。</para>
+            </exception>
+            <exception cref="T:System.ArgumentNullException">
+                <para xml:lang="en">The weight provider is null.</para>
+                <para xml:lang="zh-CN">权重提供器为空。</para>
+            </exception>
+            <exception cref="T:System.InvalidOperationException">
+                <para xml:lang="en">Content registration is frozen.</para>
+                <para xml:lang="zh-CN">内容注册已冻结。</para>
+            </exception>
         </member>
         <member name="M:STS2RitsuLib.Content.ModContentRegistry.RegisterAncientOption``1(STS2RitsuLib.Scaffolding.Ancients.Options.ModAncientOptionRule)">
             <summary>
@@ -21069,9 +21240,9 @@
         <member name="M:STS2RitsuLib.Content.ModContentRegistry.WarmResolvedModelCaches">
             <summary>
                 <para xml:lang="en">
-                    Warms all resolved-model caches after <see cref="M:MegaCrit.Sts2.Core.Models.ModelDb.Init" />.
+                    Warms all resolved-model caches after <see cref="M:MegaCrit.Sts2.Core.Models.ModelDb.Init(System.Type[])" />.
                 </para>
-                <para xml:lang="zh-CN">在 <see cref="M:MegaCrit.Sts2.Core.Models.ModelDb.Init" /> 后预热所有已解析模型缓存。</para>
+                <para xml:lang="zh-CN">在 <see cref="M:MegaCrit.Sts2.Core.Models.ModelDb.Init(System.Type[])" /> 后预热所有已解析模型缓存。</para>
             </summary>
         </member>
         <member name="M:STS2RitsuLib.Content.ModContentRegistry.MergeGlobalCatalog``1(STS2RitsuLib.Content.ContentCatalogId,System.Collections.Generic.IEnumerable{``0})">
@@ -22651,10 +22822,10 @@
         <member name="T:STS2RitsuLib.Content.ResolvedModelCache">
             <summary>
                 <para xml:lang="en">
-                    Resolves registered model types after <see cref="M:MegaCrit.Sts2.Core.Models.ModelDb.Init" /> and caches them by catalog.
+                    Resolves registered model types after <see cref="M:MegaCrit.Sts2.Core.Models.ModelDb.Init(System.Type[])" /> and caches them by catalog.
                 </para>
                 <para xml:lang="zh-CN">
-                    在 <see cref="M:MegaCrit.Sts2.Core.Models.ModelDb.Init" /> 后解析已注册模型类型，并按目录缓存。
+                    在 <see cref="M:MegaCrit.Sts2.Core.Models.ModelDb.Init(System.Type[])" /> 后解析已注册模型类型，并按目录缓存。
                 </para>
             </summary>
         </member>
@@ -22672,8 +22843,8 @@
         </member>
         <member name="F:STS2RitsuLib.Content.ContentRegistryPhase.Frozen">
             <summary>
-                <para xml:lang="en">Registrations are frozen before <see cref="M:MegaCrit.Sts2.Core.Models.ModelDb.Init" /> runs.</para>
-                <para xml:lang="zh-CN">在 <see cref="M:MegaCrit.Sts2.Core.Models.ModelDb.Init" /> 运行前冻结注册。</para>
+                <para xml:lang="en">Registrations are frozen before <see cref="M:MegaCrit.Sts2.Core.Models.ModelDb.Init(System.Type[])" /> runs.</para>
+                <para xml:lang="zh-CN">在 <see cref="M:MegaCrit.Sts2.Core.Models.ModelDb.Init(System.Type[])" /> 运行前冻结注册。</para>
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Content.ContentRegistryPhase.Resolved">
@@ -23533,6 +23704,17 @@
             <summary>
                 <para xml:lang="en">Gets or sets whether the main menu shows a shortcut to RitsuLib's mod settings.</para>
                 <para xml:lang="zh-CN">获取或设置主菜单是否显示 RitsuLib 模组设置的快捷入口。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Data.Models.RitsuLibSettings.MainMenuScrollingEnabled">
+            <summary>
+                <para xml:lang="en">
+                    Gets or sets whether newly created main menus use bounded scrolling and focus handling.
+                    Enabled by default. Restart the game to ensure a changed value takes effect.
+                </para>
+                <para xml:lang="zh-CN">
+                    获取或设置新建主菜单是否使用限定区域的滚动及焦点处理。默认启用；修改后重启游戏可确保生效。
+                </para>
             </summary>
         </member>
         <member name="P:STS2RitsuLib.Data.Models.RitsuLibSettings.ModelDbDeterministicSortMode">
@@ -25432,17 +25614,6 @@
                 </para>
             </summary>
         </member>
-        <member name="T:STS2RitsuLib.Diagnostics.Patches.DevConsoleAutocompleteGhostTextPatch">
-            <summary>
-                <para xml:lang="en">
-                    Hides the base game's ghost text when a localized autocomplete match produces a canonical completion
-                    that does not extend the typed input.
-                </para>
-                <para xml:lang="zh-CN">
-                    当本地化自动补全匹配所得的规范补全文本并非已输入文本的延伸时，隐藏原版幽灵文本。
-                </para>
-            </summary>
-        </member>
         <member name="T:STS2RitsuLib.Diagnostics.Patches.DevConsoleAutocompleteUnlockArgumentPatch">
             <summary>
                 <para xml:lang="en">
@@ -25493,17 +25664,6 @@
                 </para>
                 <para xml:lang="zh-CN">
                     显示控制台前重置临时的历史记录浏览状态。
-                </para>
-            </summary>
-        </member>
-        <member name="T:STS2RitsuLib.Diagnostics.Patches.SentryGdExtensionShutdown1071WorkaroundPatch">
-            <summary>
-                <para xml:lang="en">
-                    Works around native crashes in STS2 0.107.1–0.109.x by skipping Sentry's GDExtension shutdown while
-                    preserving its managed shutdown.
-                </para>
-                <para xml:lang="zh-CN">
-                    在 STS2 0.107.1–0.109.x 中跳过 Sentry 的 GDExtension 关闭流程并保留其托管关闭流程，以规避原生崩溃。
                 </para>
             </summary>
         </member>
@@ -27396,10 +27556,12 @@
                 <para xml:lang="en">
                     Only meaningful for <see cref="F:STS2RitsuLib.CardPiles.ModCardPileUiStyle.ExtraHand" />: when
                     <see langword="true" />, cards in the pile are rendered as <c>NCard</c> nodes inside its container.
+                    <see cref="P:STS2RitsuLib.Interop.AutoRegistration.RegisterOwnedCardPileAttribute.ExtraHandAllowCardPlay" /> forces this behavior for a play-enabled extra hand.
                 </para>
                 <para xml:lang="zh-CN">
                     仅对 <see cref="F:STS2RitsuLib.CardPiles.ModCardPileUiStyle.ExtraHand" /> 有意义：为 <see langword="true" /> 时，
-                    牌堆中的卡牌会在容器内渲染为 <c>NCard</c> 节点。
+                    牌堆中的卡牌会在容器内渲染为 <c>NCard</c> 节点。对于允许打出的额外手牌，
+                    <see cref="P:STS2RitsuLib.Interop.AutoRegistration.RegisterOwnedCardPileAttribute.ExtraHandAllowCardPlay" /> 会强制启用此行为。
                 </para>
             </summary>
         </member>
@@ -27440,15 +27602,37 @@
         <member name="P:STS2RitsuLib.Interop.AutoRegistration.RegisterOwnedCardPileAttribute.ExtraHandAllowCardPlay">
             <summary>
                 <para xml:lang="en">
-                    Whether the extra-hand pile has manual-card-play capability through the vanilla pipeline. This
-                    also determines each new container's initial runtime availability. Defaults to
+                    Whether the extra-hand pile has manual-card-play capability through the vanilla pipeline,
+                    including hand-consistent cost display, validation, and payment. Play-enabled cards automatically
+                    participate in core empty-hand and playable-card queries and are represented by card nodes.
+                    This also determines each new
+                    container's initial runtime availability. Defaults to
                     <see langword="true" />.
                 </para>
                 <para xml:lang="zh-CN">
-                    额外手牌牌堆是否具备通过原版流程手动出牌的能力；该值也决定每个新容器的运行时可用性
-                    初始值。默认为 <see langword="true" />。
+                    额外手牌牌堆是否具备通过原版流程手动出牌的能力，包括与手牌一致的费用显示、验证及支付；
+                    允许打出的卡牌会自动参与核心空手及可打出卡牌查询，并由卡牌节点表示。该值也决定每个新
+                    容器的运行时可用性初始值。默认为 <see langword="true" />。
                 </para>
             </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Interop.AutoRegistration.RegisterOwnedCardPileAttribute.ExtraHandBehaviors">
+            <summary>
+                <para xml:lang="en">
+                    Optional base-game hand semantics applied to cards in an extra-hand pile. The default does not
+                    add semantics beyond those required by <see cref="P:STS2RitsuLib.Interop.AutoRegistration.RegisterOwnedCardPileAttribute.ExtraHandAllowCardPlay" />. Extra-hand cards
+                    never count toward the base-game maximum hand size or reduce its draw capacity.
+                </para>
+                <para xml:lang="zh-CN">
+                    应用于额外手牌牌堆卡牌的可选游戏原有手牌语义。默认不添加
+                    <see cref="P:STS2RitsuLib.Interop.AutoRegistration.RegisterOwnedCardPileAttribute.ExtraHandAllowCardPlay" /> 所要求语义之外的行为。额外手牌卡牌不会计入游戏原有
+                    最大手牌数量，也不会减少其抽牌容量。
+                </para>
+            </summary>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+                <para xml:lang="en">The assigned value contains an undefined behavior flag.</para>
+                <para xml:lang="zh-CN">所赋值包含未定义的行为标志。</para>
+            </exception>
         </member>
         <member name="P:STS2RitsuLib.Interop.AutoRegistration.RegisterOwnedCardPileAttribute.HoverTipOffsetX">
             <summary>
@@ -29997,14 +30181,6 @@
                 <para xml:lang="zh-CN">
                     在确定的初始化节点完成 RitsuLib 持久化属性注册，并将其接入游戏的持久化属性网络 ID 表。
                 </para>
-            </summary>
-        </member>
-        <member name="M:STS2RitsuLib.Interop.Patches.SavedPropertiesTypeCacheInjectionPatch.Prefix">
-            <summary>
-                <para xml:lang="en">
-                    Injects cache entries after mod type-discovery contributors have registered their content.
-                </para>
-                <para xml:lang="zh-CN">在模组类型发现贡献器完成内容注册后注入缓存条目。</para>
             </summary>
         </member>
         <member name="T:STS2RitsuLib.Interop.ReflectionInteropConvention">
@@ -34628,6 +34804,20 @@
                     <see langword="false" /> 时为 <see langword="false" />。
                 </para>
             </returns>
+            <remarks>
+                <para xml:lang="en">
+                    The bridge owns a localization snapshot outside the game's table collection. It refreshes that
+                    snapshot after <see cref="E:STS2RitsuLib.Utils.I18N.Changed" /> and unregisters it when <paramref name="i18N" /> is disposed.
+                </para>
+                <para xml:lang="zh-CN">
+                    桥接在游戏表集合之外持有本地化快照；<see cref="E:STS2RitsuLib.Utils.I18N.Changed" /> 触发后会刷新快照，且
+                    <paramref name="i18N" /> 释放时会自动注销。
+                </para>
+            </remarks>
+            <exception cref="T:System.ObjectDisposedException">
+                <para xml:lang="en"><paramref name="i18N" /> has already been disposed.</para>
+                <para xml:lang="zh-CN"><paramref name="i18N" /> 已被释放。</para>
+            </exception>
         </member>
         <member name="M:STS2RitsuLib.Localization.I18NLocTableBridge.TryUnregister(System.String,System.String)">
             <summary>
@@ -34654,94 +34844,33 @@
                 <para xml:lang="zh-CN">使 <c>LocManager.GetTable</c> 能够解析已注册的虚拟 I18N 表。</para>
             </summary>
         </member>
-        <member name="M:STS2RitsuLib.Localization.Patches.LocManagerGetTableI18NBridgePatch.Prefix(System.String,MegaCrit.Sts2.Core.Localization.LocTable@)">
+        <member name="T:STS2RitsuLib.Localization.Patches.LocStringGetRawTextI18NBridgePatch">
             <summary>
                 <para xml:lang="en">
-                    Returns the I18N-backed table instance for a registered virtual table ID and skips the original
-                    method.
-                </para>
-                <para xml:lang="zh-CN">为已注册的虚拟表 ID 返回由 I18N 支持的表实例，并跳过原方法。</para>
-            </summary>
-        </member>
-        <member name="T:STS2RitsuLib.Localization.Patches.LocTableHasEntryI18NBridgePatch">
-            <summary>
-                <para xml:lang="en">
-                    Routes <c>LocTable.HasEntry</c> through <see cref="T:STS2RitsuLib.Localization.I18NLocTableBridge" /> for virtual
-                    <c>MODID_I18N_STEM</c> tables.
+                    Resolves virtual I18N entries at the <c>LocString.GetRawText</c> boundary so an inlined
+                    <c>LocManager.GetTable</c> cannot bypass the bridge.
                 </para>
                 <para xml:lang="zh-CN">
-                    针对虚拟 <c>MODID_I18N_STEM</c> 表，将 <c>LocTable.HasEntry</c> 查询转交给
-                    <see cref="T:STS2RitsuLib.Localization.I18NLocTableBridge" />。
+                    在 <c>LocString.GetRawText</c> 边界解析虚拟 I18N 条目，防止内联的 <c>LocManager.GetTable</c> 绕过桥接。
                 </para>
             </summary>
         </member>
-        <member name="M:STS2RitsuLib.Localization.Patches.LocTableHasEntryI18NBridgePatch.Prefix(MegaCrit.Sts2.Core.Localization.LocTable,System.String,System.Boolean@)">
+        <member name="T:STS2RitsuLib.Localization.Patches.LocStringStaticExistsI18NBridgePatch">
             <summary>
-                <para xml:lang="en">
-                    Queries the backing <see cref="T:STS2RitsuLib.Utils.I18N" /> dictionary when the table maps to a
-                    registered virtual table ID.
-                </para>
-                <para xml:lang="zh-CN">当表映射到已注册的虚拟表 ID 时，查询其背后的 <see cref="T:STS2RitsuLib.Utils.I18N" /> 字典。</para>
+                <para xml:lang="en">Resolves static <c>LocString.Exists</c> queries for virtual I18N tables.</para>
+                <para xml:lang="zh-CN">解析虚拟 I18N 表的静态 <c>LocString.Exists</c> 查询。</para>
             </summary>
         </member>
-        <member name="T:STS2RitsuLib.Localization.Patches.LocTableIsLocalKeyI18NBridgePatch">
+        <member name="T:STS2RitsuLib.Localization.Patches.LocStringExistsI18NBridgePatch">
             <summary>
-                <para xml:lang="en">
-                    Routes <c>LocTable.IsLocalKey</c> through <see cref="T:STS2RitsuLib.Localization.I18NLocTableBridge" /> for virtual
-                    <c>MODID_I18N_STEM</c> tables.
-                </para>
-                <para xml:lang="zh-CN">
-                    针对虚拟 <c>MODID_I18N_STEM</c> 表，将 <c>LocTable.IsLocalKey</c> 查询转交给
-                    <see cref="T:STS2RitsuLib.Localization.I18NLocTableBridge" />。
-                </para>
+                <para xml:lang="en">Resolves instance <c>LocString.Exists</c> queries for virtual I18N tables.</para>
+                <para xml:lang="zh-CN">解析虚拟 I18N 表的实例 <c>LocString.Exists</c> 查询。</para>
             </summary>
         </member>
-        <member name="M:STS2RitsuLib.Localization.Patches.LocTableIsLocalKeyI18NBridgePatch.Prefix(MegaCrit.Sts2.Core.Localization.LocTable,System.String,System.Boolean@)">
+        <member name="T:STS2RitsuLib.Localization.Patches.LocStringGetRandomWithPrefixI18NBridgePatch">
             <summary>
-                <para xml:lang="en">
-                    Reports whether the backing I18N dictionary contains a key for the current locale, allowing
-                    SmartFormat to select the appropriate culture.
-                </para>
-                <para xml:lang="zh-CN">报告背后的 I18N 字典是否包含当前区域设置下的键，以便 SmartFormat 选择适用的区域性。</para>
-            </summary>
-        </member>
-        <member name="T:STS2RitsuLib.Localization.Patches.LocTableGetRawTextI18NBridgePatch">
-            <summary>
-                <para xml:lang="en">
-                    Routes <c>LocTable.GetRawText</c> through <see cref="T:STS2RitsuLib.Localization.I18NLocTableBridge" /> for virtual
-                    <c>MODID_I18N_STEM</c> tables.
-                </para>
-                <para xml:lang="zh-CN">
-                    针对虚拟 <c>MODID_I18N_STEM</c> 表，将 <c>LocTable.GetRawText</c> 查询转交给
-                    <see cref="T:STS2RitsuLib.Localization.I18NLocTableBridge" />。
-                </para>
-            </summary>
-        </member>
-        <member name="M:STS2RitsuLib.Localization.Patches.LocTableGetRawTextI18NBridgePatch.Prefix(MegaCrit.Sts2.Core.Localization.LocTable,System.String,System.String@)">
-            <summary>
-                <para xml:lang="en">Returns the raw template from the backing I18N dictionary when it contains the requested key.</para>
-                <para xml:lang="zh-CN">当背后的 I18N 字典包含请求的键时，返回其中的原始模板文本。</para>
-            </summary>
-        </member>
-        <member name="T:STS2RitsuLib.Localization.Patches.LocTableGetLocStringI18NBridgePatch">
-            <summary>
-                <para xml:lang="en">
-                    Routes <c>LocTable.GetLocString</c> through <see cref="T:STS2RitsuLib.Localization.I18NLocTableBridge" /> for virtual
-                    <c>MODID_I18N_STEM</c> tables.
-                </para>
-                <para xml:lang="zh-CN">
-                    针对虚拟 <c>MODID_I18N_STEM</c> 表，将 <c>LocTable.GetLocString</c> 查询转交给
-                    <see cref="T:STS2RitsuLib.Localization.I18NLocTableBridge" />。
-                </para>
-            </summary>
-        </member>
-        <member name="M:STS2RitsuLib.Localization.Patches.LocTableGetLocStringI18NBridgePatch.Prefix(MegaCrit.Sts2.Core.Localization.LocTable,System.String,MegaCrit.Sts2.Core.Localization.LocString@)">
-            <summary>
-                <para xml:lang="en">
-                    Returns a <see cref="T:MegaCrit.Sts2.Core.Localization.LocString" /> that points to the virtual table ID when the backing I18N
-                    dictionary contains the key.
-                </para>
-                <para xml:lang="zh-CN">当背后的 I18N 字典包含该键时，返回指向虚拟表 ID 的 <see cref="T:MegaCrit.Sts2.Core.Localization.LocString" />。</para>
+                <para xml:lang="en">Resolves random prefix selection for virtual I18N tables.</para>
+                <para xml:lang="zh-CN">解析虚拟 I18N 表的随机前缀选择。</para>
             </summary>
         </member>
         <member name="T:STS2RitsuLib.Localization.Patches.LocManagerLoadLocFormattersPostfixPatch">
@@ -43252,10 +43381,12 @@
         <member name="M:STS2RitsuLib.Networking.Sidecar.RitsuLibSidecarConnectionExchange.TrySendLocalClientHello">
             <summary>
                 <para xml:lang="en">
-                    Attempts a client handshake using the network service from <see cref="P:MegaCrit.Sts2.Core.Runs.RunManager.Instance" />.
+                    Attempts a client handshake using the active observed Sidecar service, falling back to the service from
+                    <see cref="P:MegaCrit.Sts2.Core.Runs.RunManager.Instance" /> when no service has been observed yet.
                 </para>
                 <para xml:lang="zh-CN">
-                    使用 <see cref="P:MegaCrit.Sts2.Core.Runs.RunManager.Instance" /> 中的网络服务尝试客户端握手。
+                    使用当前观察到的 Sidecar 服务尝试客户端握手；尚未观察到服务时，回退使用
+                    <see cref="P:MegaCrit.Sts2.Core.Runs.RunManager.Instance" /> 中的服务。
                 </para>
             </summary>
         </member>
@@ -44195,6 +44326,14 @@
                 <para xml:lang="zh-CN">
                     持有一个 Harmony 实例，并管理静态和动态补丁的注册、应用与移除。
                 </para>
+                <para xml:lang="en">
+                    Static patches merge class and method Harmony annotations using Harmony's native rules while keeping
+                    their registered targets. Dynamic patches use the supplied HarmonyMethod instances directly.
+                </para>
+                <para xml:lang="zh-CN">
+                    静态补丁按 Harmony 原生规则合并类级和方法级标注，并保留注册的目标。
+                    动态补丁直接使用传入的 HarmonyMethod 实例。
+                </para>
             </summary>
             <param name="patcherId">
                 <para xml:lang="en">Harmony ID, which must be unique for each logical patcher.</para>
@@ -44216,6 +44355,14 @@
                 </para>
                 <para xml:lang="zh-CN">
                     持有一个 Harmony 实例，并管理静态和动态补丁的注册、应用与移除。
+                </para>
+                <para xml:lang="en">
+                    Static patches merge class and method Harmony annotations using Harmony's native rules while keeping
+                    their registered targets. Dynamic patches use the supplied HarmonyMethod instances directly.
+                </para>
+                <para xml:lang="zh-CN">
+                    静态补丁按 Harmony 原生规则合并类级和方法级标注，并保留注册的目标。
+                    动态补丁直接使用传入的 HarmonyMethod 实例。
                 </para>
             </summary>
             <param name="patcherId">
@@ -44735,16 +44882,16 @@
             </summary>
             <remarks>
                 <para xml:lang="en">
-                    When <see cref="M:STS2RitsuLib.Patching.Models.IPatchMethod.GetTargets" /> contains multiple entries with the same
-                    <see cref="P:STS2RitsuLib.Patching.Models.ModPatchTarget.TargetType" /> and <see cref="P:STS2RitsuLib.Patching.Models.ModPatchTarget.MethodName" />, such as
-                    several <c>.ctor</c> overloads, the generated <see cref="P:STS2RitsuLib.Patching.Models.ModPatchInfo.Id" /> values receive
-                    <c>__1</c>, <c>__2</c>, and subsequent suffixes in declaration order. This prevents
+                    When <see cref="M:STS2RitsuLib.Patching.Models.IPatchMethod.GetTargets" /> would generate the same base ID for multiple entries, such as
+                    several <c>.ctor</c> overloads or compiler-generated types that share a simple name, the generated
+                    <see cref="P:STS2RitsuLib.Patching.Models.ModPatchInfo.Id" /> values receive <c>__1</c>, <c>__2</c>, and subsequent suffixes in
+                    declaration order. This prevents
                     <see cref="M:STS2RitsuLib.Patching.Core.ModPatcher.RegisterPatch(STS2RitsuLib.Patching.Models.ModPatchInfo)" /> from treating them as duplicates.
                 </para>
                 <para xml:lang="zh-CN">
-                    当 <see cref="M:STS2RitsuLib.Patching.Models.IPatchMethod.GetTargets" /> 包含多个 <see cref="P:STS2RitsuLib.Patching.Models.ModPatchTarget.TargetType" /> 和
-                    <see cref="P:STS2RitsuLib.Patching.Models.ModPatchTarget.MethodName" /> 均相同的条目时（例如多个 <c>.ctor</c> 重载），
-                    生成的 <see cref="P:STS2RitsuLib.Patching.Models.ModPatchInfo.Id" /> 会按声明顺序追加 <c>__1</c>、<c>__2</c> 等后缀，
+                    当 <see cref="M:STS2RitsuLib.Patching.Models.IPatchMethod.GetTargets" /> 中多个条目会生成相同基础 ID 时（例如多个 <c>.ctor</c> 重载，
+                    或简单名称相同的编译器生成类型），生成的 <see cref="P:STS2RitsuLib.Patching.Models.ModPatchInfo.Id" /> 会按声明顺序追加
+                    <c>__1</c>、<c>__2</c> 等后缀，
                     以免 <see cref="M:STS2RitsuLib.Patching.Core.ModPatcher.RegisterPatch(STS2RitsuLib.Patching.Models.ModPatchInfo)" /> 将它们视为重复项。
                 </para>
             </remarks>
@@ -45702,12 +45849,12 @@
         <member name="T:STS2RitsuLib.Platform.Patches.RitsuLibModelDbInitPostfixPatch">
             <summary>
                 <para xml:lang="en">
-                    Applies deferred Harmony patches after <see cref="M:MegaCrit.Sts2.Core.Models.ModelDb.Init" />. These patches cannot resolve their
+                    Applies deferred Harmony patches after <see cref="M:MegaCrit.Sts2.Core.Models.ModelDb.Init(System.Type[])" />. These patches cannot resolve their
                     targets during the first mod-load pass because resolution can trigger static initialization that
                     depends on <see cref="T:MegaCrit.Sts2.Core.Models.ModelDb" />.
                 </para>
                 <para xml:lang="zh-CN">
-                    在 <see cref="M:MegaCrit.Sts2.Core.Models.ModelDb.Init" /> 后应用延迟的 Harmony 补丁。这些补丁不能在首次加载模组时解析目标，
+                    在 <see cref="M:MegaCrit.Sts2.Core.Models.ModelDb.Init(System.Type[])" /> 后应用延迟的 Harmony 补丁。这些补丁不能在首次加载模组时解析目标，
                     因为解析可能触发依赖 <see cref="T:MegaCrit.Sts2.Core.Models.ModelDb" /> 的静态初始化。
                 </para>
             </summary>
@@ -47029,6 +47176,19 @@
                     <c>LocString</c> 管线可以从中解析原始模板。
                 </para>
             </summary>
+            <remarks>
+                <para xml:lang="en">
+                    The virtual table stays outside the game's table collection. Its snapshot is refreshed when
+                    <paramref name="i18N" /> changes and is unregistered automatically when that instance is disposed.
+                </para>
+                <para xml:lang="zh-CN">
+                    虚拟表不会加入游戏的表集合；<paramref name="i18N" /> 变化时会刷新其快照，并在该实例释放时自动注销。
+                </para>
+            </remarks>
+            <exception cref="T:System.ObjectDisposedException">
+                <para xml:lang="en"><paramref name="i18N" /> has already been disposed.</para>
+                <para xml:lang="zh-CN"><paramref name="i18N" /> 已被释放。</para>
+            </exception>
         </member>
         <member name="M:STS2RitsuLib.RitsuLibFramework.UnregisterI18NLocTableBridge(System.String,System.String)">
             <summary>
@@ -48714,14 +48874,14 @@
         </member>
         <member name="T:STS2RitsuLib.Saves.RawProgress.ProgressGeneration">
             <summary>
-                <para xml:lang="en">Identifies one observed version of the active progress destination.</para>
-                <para xml:lang="zh-CN">标识活动进度目标的一次已观测版本。</para>
+                <para xml:lang="en">Identifies one observed version of a progress destination.</para>
+                <para xml:lang="zh-CN">标识一个进度目标的一次已观测版本。</para>
             </summary>
         </member>
         <member name="P:STS2RitsuLib.Saves.RawProgress.ProgressGeneration.ProfileId">
             <summary>
-                <para xml:lang="en">Gets the active profile ID.</para>
-                <para xml:lang="zh-CN">获取活动档案 ID。</para>
+                <para xml:lang="en">Gets the observed profile ID.</para>
+                <para xml:lang="zh-CN">获取观测到的档案 ID。</para>
             </summary>
         </member>
         <member name="P:STS2RitsuLib.Saves.RawProgress.ProgressGeneration.IsModded">
@@ -48797,8 +48957,8 @@
         </member>
         <member name="T:STS2RitsuLib.Saves.RawProgress.RawProgressSnapshot">
             <summary>
-                <para xml:lang="en">Contains the active raw progress document and the generation captured with it.</para>
-                <para xml:lang="zh-CN">包含活动原始进度文档及与其同时捕获的代次。</para>
+                <para xml:lang="en">Contains a raw progress document and the generation captured with it.</para>
+                <para xml:lang="zh-CN">包含一个原始进度文档及与其同时捕获的代次。</para>
             </summary>
         </member>
         <member name="P:STS2RitsuLib.Saves.RawProgress.RawProgressSnapshot.SchemaVersion">
@@ -48821,8 +48981,8 @@
         </member>
         <member name="T:STS2RitsuLib.Saves.RawProgress.RawProgressReadOutcome">
             <summary>
-                <para xml:lang="en">Reports the outcome of capturing the active progress document.</para>
-                <para xml:lang="zh-CN">报告捕获活动进度文档的结果。</para>
+                <para xml:lang="en">Reports the outcome of capturing a progress document.</para>
+                <para xml:lang="zh-CN">报告捕获进度文档的结果。</para>
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Saves.RawProgress.RawProgressReadOutcome.Succeeded">
@@ -48833,26 +48993,26 @@
         </member>
         <member name="F:STS2RitsuLib.Saves.RawProgress.RawProgressReadOutcome.ActiveProfileUnavailable">
             <summary>
-                <para xml:lang="en">The game has not initialized an active profile.</para>
-                <para xml:lang="zh-CN">游戏尚未初始化活动档案。</para>
+                <para xml:lang="en">The game has not initialized the save runtime or an active profile.</para>
+                <para xml:lang="zh-CN">游戏尚未初始化存档运行时或活动档案。</para>
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Saves.RawProgress.RawProgressReadOutcome.LocalReadUnavailable">
             <summary>
-                <para xml:lang="en">The active local progress file does not exist or could not be read.</para>
-                <para xml:lang="zh-CN">活动本地进度文件不存在或无法读取。</para>
+                <para xml:lang="en">The selected local progress file does not exist or could not be read.</para>
+                <para xml:lang="zh-CN">所选本地进度文件不存在或无法读取。</para>
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Saves.RawProgress.RawProgressReadOutcome.ValidationFailed">
             <summary>
-                <para xml:lang="en">The active document is malformed, oversized, or lacks a stable identity.</para>
-                <para xml:lang="zh-CN">活动文档格式错误、尺寸过大或缺少稳定身份。</para>
+                <para xml:lang="en">The selected document is malformed, oversized, or lacks a stable identity.</para>
+                <para xml:lang="zh-CN">所选文档格式错误、尺寸过大或缺少稳定身份。</para>
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Saves.RawProgress.RawProgressReadOutcome.SchemaUnsupported">
             <summary>
-                <para xml:lang="en">The active document uses a schema this provider build does not accept.</para>
-                <para xml:lang="zh-CN">活动文档使用了此提供方构建不接受的 schema。</para>
+                <para xml:lang="en">The selected document uses a schema this provider build does not accept.</para>
+                <para xml:lang="zh-CN">所选文档使用了此提供方构建不接受的 schema。</para>
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Saves.RawProgress.RawProgressReadOutcome.CloudReadUnavailable">
@@ -48881,8 +49041,11 @@
         </member>
         <member name="T:STS2RitsuLib.Saves.RawProgress.RawProgressCommitRequest">
             <summary>
-                <para xml:lang="en">Requests one conditional replacement of the active raw progress document.</para>
-                <para xml:lang="zh-CN">请求对活动原始进度文档执行一次条件替换。</para>
+                <para xml:lang="en">
+                    Requests one conditional raw progress replacement. The active bridge binds it to the active document; the
+                    targeted bridge binds it to an explicit destination.
+                </para>
+                <para xml:lang="zh-CN">请求一次条件原始进度替换。活动桥接器将其绑定到活动文档，目标化桥接器则将其绑定到显式目标。</para>
             </summary>
         </member>
         <member name="P:STS2RitsuLib.Saves.RawProgress.RawProgressCommitRequest.ProtocolVersion">
@@ -48915,10 +49078,10 @@
                 <para xml:lang="en">
                     Gets the caller-generated transaction ID used for duplicate suppression and recovery. It must be unique
                     within <see cref="P:STS2RitsuLib.Saves.RawProgress.RawProgressCommitRequest.OwnerId" />. Reuse the same owner and transaction only to replay the identical proposed
-                    payload; reusing it with different content is rejected.
+                    request; reusing it with any different request content is rejected.
                 </para>
                 <para xml:lang="zh-CN">
-                    获取调用方生成的事务 ID，用于抑制重复提交和恢复。该值在 <see cref="P:STS2RitsuLib.Saves.RawProgress.RawProgressCommitRequest.OwnerId" /> 内必须唯一；仅可使用相同所有者与事务重试完全相同的拟提交内容，若内容不同则会被拒绝。
+                    获取调用方生成的事务 ID，用于抑制重复提交和恢复。该值在 <see cref="P:STS2RitsuLib.Saves.RawProgress.RawProgressCommitRequest.OwnerId" /> 内必须唯一；仅可使用相同所有者与事务重试完全相同的请求，任何请求内容不同都会被拒绝。
                 </para>
             </summary>
         </member>
@@ -48990,8 +49153,11 @@
         </member>
         <member name="F:STS2RitsuLib.Saves.RawProgress.RawProgressCommitOutcome.CommittedVerified">
             <summary>
-                <para xml:lang="en">Local, cloud when present, live memory, and preservation evidence all agree.</para>
-                <para xml:lang="zh-CN">本地、存在时的云端、内存状态和保留机制证据全部一致。</para>
+                <para xml:lang="en">
+                    Local and cloud evidence agree. An active destination was synchronized with live memory and preservation;
+                    an inactive destination left that state isolated.
+                </para>
+                <para xml:lang="zh-CN">本地与云端证据一致；活动目标已同步内存状态与保留机制，非活动目标则保持该状态隔离。</para>
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Saves.RawProgress.RawProgressCommitOutcome.GenerationConflict">
@@ -49084,6 +49250,36 @@
                 <para xml:lang="zh-CN">调用方请求了不同的协议版本。</para>
             </summary>
         </member>
+        <member name="T:STS2RitsuLib.Saves.RawProgress.RawProgressLiveStateDisposition">
+            <summary>
+                <para xml:lang="en">Reports how a commit interacted with the active in-memory progress state.</para>
+                <para xml:lang="zh-CN">报告提交与活动内存进度状态的交互方式。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.RawProgressLiveStateDisposition.NotObserved">
+            <summary>
+                <para xml:lang="en">No live-state operation was required or reached.</para>
+                <para xml:lang="zh-CN">无需执行或尚未执行内存状态操作。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.RawProgressLiveStateDisposition.Synchronized">
+            <summary>
+                <para xml:lang="en">The active destination was synchronized and its known projection was verified.</para>
+                <para xml:lang="zh-CN">活动目标已同步，且其已知投影已验证。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.RawProgressLiveStateDisposition.Isolated">
+            <summary>
+                <para xml:lang="en">The destination was inactive, so the active progress state was deliberately left unchanged.</para>
+                <para xml:lang="zh-CN">目标处于非活动状态，因此活动进度状态被有意保持不变。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.RawProgressLiveStateDisposition.Unverified">
+            <summary>
+                <para xml:lang="en">Synchronization of an active destination was attempted but could not be verified.</para>
+                <para xml:lang="zh-CN">已尝试同步活动目标，但无法验证结果。</para>
+            </summary>
+        </member>
         <member name="T:STS2RitsuLib.Saves.RawProgress.RawProgressCommitResult">
             <summary>
                 <para xml:lang="en">Contains verification and recovery evidence for a commit attempt.</para>
@@ -49130,6 +49326,12 @@
             <summary>
                 <para xml:lang="en">Gets the raw hash against which preservation was installed.</para>
                 <para xml:lang="zh-CN">获取安装保留机制时对应的原始哈希。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.RawProgressCommitResult.LiveStateDisposition">
+            <summary>
+                <para xml:lang="en">Gets how the commit handled the active in-memory progress state.</para>
+                <para xml:lang="zh-CN">获取提交处理活动内存进度状态的方式。</para>
             </summary>
         </member>
         <member name="P:STS2RitsuLib.Saves.RawProgress.RawProgressCommitResult.DestinationMayHaveChanged">
@@ -49434,10 +49636,10 @@
         <member name="T:STS2RitsuLib.Saves.RawProgress.IRawProgressCommitBridge">
             <summary>
                 <para xml:lang="en">
-                    Provides fail-closed capture, conditional commit, and bounded recovery operations for the active progress
-                    document.
+                    Provides fail-closed capture and conditional commit for the active progress document, plus bounded recovery
+                    operations for the destination recorded by each journal.
                 </para>
-                <para xml:lang="zh-CN">为活动进度文档提供保守失败的捕获、条件提交与有界恢复操作。</para>
+                <para xml:lang="zh-CN">为活动进度文档提供保守失败的捕获与条件提交，并为每份日志所记录的目标提供有界恢复操作。</para>
             </summary>
         </member>
         <member name="M:STS2RitsuLib.Saves.RawProgress.IRawProgressCommitBridge.GetPendingRecoveriesAsync(System.String,System.Threading.CancellationToken)">
@@ -49475,12 +49677,13 @@
         <member name="M:STS2RitsuLib.Saves.RawProgress.IRawProgressCommitBridge.RestoreRecoveryAsync(STS2RitsuLib.Saves.RawProgress.RawProgressRecoveryRequest,System.Threading.CancellationToken)">
             <summary>
                 <para xml:lang="en">
-                    Restores a journal's validated original document only when the active profile and freshly captured
-                    destination generation still match. The same local, cloud, live-state, and preservation verification used
-                    by a normal raw commit applies. The journal is removed only after a fully verified restoration.
+                    Restores a journal's validated original document only when the journal destination and freshly captured
+                    destination generation still match. Active destinations use live-state and preservation verification;
+                    inactive destinations preserve active-state isolation. The journal is removed only after a fully verified
+                    restoration.
                 </para>
                 <para xml:lang="zh-CN">
-                    仅当活动档案与新近捕获的目标代次仍然匹配时，恢复日志中已验证的原始文档。恢复会执行与普通原始提交相同的本地、云端、内存状态和保留机制验证，且仅在恢复得到完整验证后删除日志。
+                    仅当日志目标与新近捕获的目标代次仍然匹配时，恢复日志中已验证的原始文档。活动目标会执行内存状态与保留机制验证，非活动目标则保持活动状态隔离；且仅在恢复得到完整验证后删除日志。
                 </para>
             </summary>
             <param name="request">
@@ -49509,11 +49712,11 @@
             <summary>
                 <para xml:lang="en">
                     Explicitly accepts the current destination and removes a matching retained journal without changing
-                    progress data. The owner, opaque token, active profile, and freshly captured destination generation must
-                    still match inside the exclusive window. No journal is removed on a mismatch.
+                    progress data. The owner, opaque token, journal destination, and freshly captured destination generation
+                    must still match inside the exclusive window. No journal is removed on a mismatch.
                 </para>
                 <para xml:lang="zh-CN">
-                    显式接受当前目标，并在不改变进度数据的情况下移除匹配的保留日志。所有者、不透明 token、活动档案及新近捕获的目标代次必须在独占窗口内仍然匹配；任何不匹配都不会移除日志。
+                    显式接受当前目标，并在不改变进度数据的情况下移除匹配的保留日志。所有者、不透明 token、日志目标及新近捕获的目标代次必须在独占窗口内仍然匹配；任何不匹配都不会移除日志。
                 </para>
             </summary>
             <param name="request">
@@ -49611,6 +49814,392 @@
                 <para xml:lang="en">Gets the shared provider instance.</para>
                 <para xml:lang="zh-CN">获取共享的提供方实例。</para>
             </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.RawProgressBridge.TargetedInstance">
+            <summary>
+                <para xml:lang="en">Gets the shared provider instance with explicitly targeted operations.</para>
+                <para xml:lang="zh-CN">获取支持显式目标化操作的共享提供方实例。</para>
+            </summary>
+        </member>
+        <member name="T:STS2RitsuLib.Saves.RawProgress.RawProgressEnvironment">
+            <summary>
+                <para xml:lang="en">Identifies a save namespace that can contain a progress document.</para>
+                <para xml:lang="zh-CN">标识可包含进度文档的存档命名空间。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.RawProgressEnvironment.Vanilla">
+            <summary>
+                <para xml:lang="en">The unmodded game save namespace.</para>
+                <para xml:lang="zh-CN">未加载模组时使用的游戏存档命名空间。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.RawProgressEnvironment.Modded">
+            <summary>
+                <para xml:lang="en">The modded game save namespace.</para>
+                <para xml:lang="zh-CN">加载模组时使用的游戏存档命名空间。</para>
+            </summary>
+        </member>
+        <member name="T:STS2RitsuLib.Saves.RawProgress.RawProgressDestination">
+            <summary>
+                <para xml:lang="en">Selects one profile and save namespace without changing the active game profile.</para>
+                <para xml:lang="zh-CN">选择一个档案及存档命名空间，且不改变游戏当前的活动档案。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.RawProgressDestination.ProfileId">
+            <summary>
+                <para xml:lang="en">Gets the profile ID. Valid game profiles are numbered from 1 through 3.</para>
+                <para xml:lang="zh-CN">获取档案 ID。有效的游戏档案编号为 1 至 3。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.RawProgressDestination.Environment">
+            <summary>
+                <para xml:lang="en">Gets the selected save namespace.</para>
+                <para xml:lang="zh-CN">获取所选存档命名空间。</para>
+            </summary>
+        </member>
+        <member name="T:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressBridgeFeature">
+            <summary>
+                <para xml:lang="en">Describes independently negotiable capabilities of the targeted raw-progress bridge.</para>
+                <para xml:lang="zh-CN">描述目标化原始进度桥接器中可独立协商的能力。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressBridgeFeature.ExplicitDestinationCapture">
+            <summary>
+                <para xml:lang="en">Callers can capture a progress document selected by profile and save namespace.</para>
+                <para xml:lang="zh-CN">调用方可以按档案及存档命名空间捕获进度文档。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressBridgeFeature.InactiveDestinationCommit">
+            <summary>
+                <para xml:lang="en">A selected destination can be committed while it is not the active progress document.</para>
+                <para xml:lang="zh-CN">所选目标并非活动进度文档时仍可提交。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressBridgeFeature.SourceAndDestinationGenerationCheck">
+            <summary>
+                <para xml:lang="en">
+                    Both the selected source and destination generations are rechecked in the commit's exclusive save window.
+                </para>
+                <para xml:lang="zh-CN">所选来源与目标的代次都会在提交的独占保存窗口内重新检查。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressBridgeFeature.ActiveProgressStateIsolation">
+            <summary>
+                <para xml:lang="en">
+                    Committing an inactive destination does not replace or attach preservation state to the active in-memory
+                    progress document.
+                </para>
+                <para xml:lang="zh-CN">提交非活动目标时，不会替换活动内存进度文档，也不会向其附加未知属性保留状态。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressBridgeFeature.TargetedRecoveryJournalManagement">
+            <summary>
+                <para xml:lang="en">
+                    Existing owner-scoped recovery operations locate the destination recorded by each journal, including an
+                    inactive destination.
+                </para>
+                <para xml:lang="zh-CN">现有的所有者范围恢复操作会定位每份日志所记录的目标，包括非活动目标。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressBridgeFeature.StablePublicContract">
+            <summary>
+                <para xml:lang="en">The targeted capability is exposed through a documented public contract.</para>
+                <para xml:lang="zh-CN">目标化能力通过有文档说明的公共契约公开。</para>
+            </summary>
+        </member>
+        <member name="T:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressBridgeDescriptor">
+            <summary>
+                <para xml:lang="en">Describes the targeted raw-progress provider and its current limits.</para>
+                <para xml:lang="zh-CN">描述目标化原始进度提供方及其当前限制。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressBridgeDescriptor.ProviderId">
+            <summary>
+                <para xml:lang="en">Gets the stable provider identifier.</para>
+                <para xml:lang="zh-CN">获取稳定的提供方标识符。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressBridgeDescriptor.ProviderVersion">
+            <summary>
+                <para xml:lang="en">Gets the provider package version.</para>
+                <para xml:lang="zh-CN">获取提供方包版本。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressBridgeDescriptor.ProtocolVersion">
+            <summary>
+                <para xml:lang="en">Gets the exact targeted request and result protocol version.</para>
+                <para xml:lang="zh-CN">获取目标化请求与结果使用的精确协议版本。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressBridgeDescriptor.BaseProtocolVersion">
+            <summary>
+                <para xml:lang="en">Gets the exact base commit protocol version required by destination commit requests.</para>
+                <para xml:lang="zh-CN">获取目标提交请求所需的精确基础提交协议版本。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressBridgeDescriptor.SupportedSchemas">
+            <summary>
+                <para xml:lang="en">Gets the progress schemas currently available for targeted operations.</para>
+                <para xml:lang="zh-CN">获取当前可用于目标化操作的进度 schema。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressBridgeDescriptor.SupportedEnvironments">
+            <summary>
+                <para xml:lang="en">Gets the save namespaces accepted by the provider.</para>
+                <para xml:lang="zh-CN">获取提供方接受的存档命名空间。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressBridgeDescriptor.Features">
+            <summary>
+                <para xml:lang="en">Gets the advertised targeted capabilities.</para>
+                <para xml:lang="zh-CN">获取声明的目标化能力集合。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressBridgeDescriptor.BaseFeatures">
+            <summary>
+                <para xml:lang="en">Gets the base raw-progress capabilities used by targeted commits.</para>
+                <para xml:lang="zh-CN">获取目标化提交所使用的基础原始进度能力。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressBridgeDescriptor.MaxDocumentUtf8Bytes">
+            <summary>
+                <para xml:lang="en">Gets the largest accepted UTF-8 document size in bytes.</para>
+                <para xml:lang="zh-CN">获取允许提交的 UTF-8 文档最大字节数。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressBridgeDescriptor.MaxRetainedRecoveryJournals">
+            <summary>
+                <para xml:lang="en">Gets the maximum number of recovery journals retained across all owners.</para>
+                <para xml:lang="zh-CN">获取所有所有者合计可保留的恢复日志数量上限。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressBridgeDescriptor.MaxRecoveryOwnerIdUtf8Bytes">
+            <summary>
+                <para xml:lang="en">Gets the largest accepted UTF-8 owner identifier size in bytes.</para>
+                <para xml:lang="zh-CN">获取允许使用的 UTF-8 所有者标识最大字节数。</para>
+            </summary>
+        </member>
+        <member name="T:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitRequest">
+            <summary>
+                <para xml:lang="en">
+                    Requests one conditional destination commit guarded by independently captured source and destination
+                    generations.
+                </para>
+                <para xml:lang="zh-CN">请求一次由独立捕获的来源与目标代次共同保护的条件目标提交。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitRequest.ProtocolVersion">
+            <summary>
+                <para xml:lang="en">Gets the exact targeted protocol version expected by the caller.</para>
+                <para xml:lang="zh-CN">获取调用方要求的精确目标化协议版本。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitRequest.Source">
+            <summary>
+                <para xml:lang="en">Gets the source whose captured generation protects the prepared proposal.</para>
+                <para xml:lang="zh-CN">获取以其捕获代次保护已准备提案的来源。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitRequest.ExpectedSourceGeneration">
+            <summary>
+                <para xml:lang="en">Gets the source generation that must still be current before mutation.</para>
+                <para xml:lang="zh-CN">获取在修改前必须仍然有效的来源代次。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitRequest.Destination">
+            <summary>
+                <para xml:lang="en">Gets the destination to replace.</para>
+                <para xml:lang="zh-CN">获取要替换的目标。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitRequest.DestinationCommit">
+            <summary>
+                <para xml:lang="en">
+                    Gets the base commit request containing the expected destination generation, owner, transaction, and
+                    complete proposed document. Its protocol version must match the base descriptor.
+                </para>
+                <para xml:lang="zh-CN">
+                    获取包含预期目标代次、所有者、事务及完整拟提交文档的基础提交请求。其协议版本必须与基础描述符匹配。
+                </para>
+            </summary>
+        </member>
+        <member name="T:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitGuardOutcome">
+            <summary>
+                <para xml:lang="en">Reports whether the targeted pre-mutation guards passed.</para>
+                <para xml:lang="zh-CN">报告目标化操作的修改前保护检查是否通过。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitGuardOutcome.Passed">
+            <summary>
+                <para xml:lang="en">Every guard passed and <see cref="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitResult.CommitResult" /> is present.</para>
+                <para xml:lang="zh-CN">所有保护检查均已通过，且 <see cref="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitResult.CommitResult" /> 存在。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitGuardOutcome.ProviderIncompatible">
+            <summary>
+                <para xml:lang="en">The caller requested an incompatible targeted or base protocol.</para>
+                <para xml:lang="zh-CN">调用方请求了不兼容的目标化协议或基础协议。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitGuardOutcome.SchemaUnsupported">
+            <summary>
+                <para xml:lang="en">The proposed or selected document uses an unsupported progress schema.</para>
+                <para xml:lang="zh-CN">拟提交文档或所选文档使用了不受支持的进度 schema。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitGuardOutcome.ValidationFailed">
+            <summary>
+                <para xml:lang="en">The request, destination binding, generation, or proposed document was invalid.</para>
+                <para xml:lang="zh-CN">请求、目标绑定、代次或拟提交文档无效。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitGuardOutcome.CancelledBeforeCommit">
+            <summary>
+                <para xml:lang="en">Cancellation was observed before recovery metadata or the destination could change.</para>
+                <para xml:lang="zh-CN">在恢复元数据或目标可能改变之前收到取消请求。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitGuardOutcome.SourceUnavailable">
+            <summary>
+                <para xml:lang="en">The selected source could not be captured and validated.</para>
+                <para xml:lang="zh-CN">无法捕获并验证所选来源。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitGuardOutcome.SourceGenerationConflict">
+            <summary>
+                <para xml:lang="en">The selected source no longer matches its expected generation.</para>
+                <para xml:lang="zh-CN">所选来源不再匹配其预期代次。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitGuardOutcome.DestinationUnavailable">
+            <summary>
+                <para xml:lang="en">The selected destination could not be captured and validated.</para>
+                <para xml:lang="zh-CN">无法捕获并验证所选目标。</para>
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitGuardOutcome.DestinationGenerationConflict">
+            <summary>
+                <para xml:lang="en">The selected destination no longer matches its expected generation.</para>
+                <para xml:lang="zh-CN">所选目标不再匹配其预期代次。</para>
+            </summary>
+        </member>
+        <member name="T:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitResult">
+            <summary>
+                <para xml:lang="en">Contains source and destination guard evidence plus any attempted commit result.</para>
+                <para xml:lang="zh-CN">包含来源与目标保护检查证据，以及存在时的提交尝试结果。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitResult.GuardOutcome">
+            <summary>
+                <para xml:lang="en">
+                    Gets the pre-mutation guard outcome. When this is not
+                    <see cref="F:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitGuardOutcome.Passed" />, no recovery metadata or destination was changed.
+                </para>
+                <para xml:lang="zh-CN">
+                    获取修改前保护检查结果。当其不是 <see cref="F:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitGuardOutcome.Passed" /> 时，恢复元数据与目标均未改变。
+                </para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitResult.ReadFailure">
+            <summary>
+                <para xml:lang="en">
+                    Gets the source or destination read failure when a selected document was unavailable; otherwise
+                    <see langword="null" />.
+                </para>
+                <para xml:lang="zh-CN">获取所选来源或目标不可用时的读取失败结果；其他情况下为 <see langword="null" />。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitResult.CommitResult">
+            <summary>
+                <para xml:lang="en">
+                    Gets detailed mutation and verification evidence only after every guard passed. A retained recovery journal
+                    and all partial outcomes use the same bounded recovery contract as an active-document commit.
+                </para>
+                <para xml:lang="zh-CN">
+                    仅在所有保护检查均通过后获取详细的修改与验证证据。保留的恢复日志及所有部分成功结果与活动文档提交使用相同的有界恢复契约。
+                </para>
+            </summary>
+        </member>
+        <member name="T:STS2RitsuLib.Saves.RawProgress.ITargetedRawProgressCommitBridge">
+            <summary>
+                <para xml:lang="en">
+                    Extends the active-document bridge with fail-closed operations for explicitly selected progress destinations.
+                </para>
+                <para xml:lang="zh-CN">在活动文档桥接器基础上，为显式选择的进度目标提供保守失败操作。</para>
+            </summary>
+        </member>
+        <member name="M:STS2RitsuLib.Saves.RawProgress.ITargetedRawProgressCommitBridge.DescribeTargeted">
+            <summary>
+                <para xml:lang="en">Returns immutable targeted provider metadata without reading or changing a profile.</para>
+                <para xml:lang="zh-CN">返回不可变的目标化提供方元数据，且不读取或改变任何档案。</para>
+            </summary>
+            <returns>
+                <para xml:lang="en">The targeted provider descriptor.</para>
+                <para xml:lang="zh-CN">目标化提供方描述符。</para>
+            </returns>
+        </member>
+        <member name="M:STS2RitsuLib.Saves.RawProgress.ITargetedRawProgressCommitBridge.CaptureAsync(STS2RitsuLib.Saves.RawProgress.RawProgressDestination,System.Threading.CancellationToken)">
+            <summary>
+                <para xml:lang="en">
+                    Captures the complete selected document and its generation inside the shared exclusive save window without
+                    changing the active profile. A persisted cloud copy must be readable or the operation fails closed.
+                </para>
+                <para xml:lang="zh-CN">
+                    在共享独占保存窗口内捕获所选完整文档及其代次，且不改变活动档案。若存在已持久化云端副本但无法读回，操作会保守失败。
+                </para>
+            </summary>
+            <param name="destination">
+                <para xml:lang="en">The profile and save namespace to capture.</para>
+                <para xml:lang="zh-CN">要捕获的档案及存档命名空间。</para>
+            </param>
+            <param name="cancellationToken">
+                <para xml:lang="en">Cancellation observed before the snapshot is captured.</para>
+                <para xml:lang="zh-CN">在捕获快照前接受的取消信号。</para>
+            </param>
+            <returns>
+                <para xml:lang="en">The selected snapshot result.</para>
+                <para xml:lang="zh-CN">所选目标的快照结果。</para>
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+                <para xml:lang="en"><paramref name="destination" /> is <see langword="null" />.</para>
+                <para xml:lang="zh-CN"><paramref name="destination" /> 为 <see langword="null" />。</para>
+            </exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+                <para xml:lang="en">The profile ID or save namespace is outside the supported range.</para>
+                <para xml:lang="zh-CN">档案 ID 或存档命名空间超出支持范围。</para>
+            </exception>
+            <exception cref="T:System.OperationCanceledException">
+                <para xml:lang="en">The operation was cancelled before capture completed.</para>
+                <para xml:lang="zh-CN">操作在捕获完成前被取消。</para>
+            </exception>
+        </member>
+        <member name="M:STS2RitsuLib.Saves.RawProgress.ITargetedRawProgressCommitBridge.CommitAsync(STS2RitsuLib.Saves.RawProgress.TargetedRawProgressCommitRequest,System.Threading.CancellationToken)">
+            <summary>
+                <para xml:lang="en">
+                    Rechecks the selected source and destination inside one exclusive save window, then conditionally commits
+                    the complete destination document. Cancellation is honored only before recovery metadata or the destination
+                    can change. An inactive destination is committed without replacing the active in-memory progress state.
+                </para>
+                <para xml:lang="zh-CN">
+                    在同一独占保存窗口内重新检查所选来源与目标，然后有条件地提交完整目标文档。取消信号仅会在恢复元数据或目标可能改变之前生效。提交非活动目标时不会替换活动内存进度状态。
+                </para>
+            </summary>
+            <param name="request">
+                <para xml:lang="en">The source guard, selected destination, and destination commit request.</para>
+                <para xml:lang="zh-CN">来源保护条件、所选目标及目标提交请求。</para>
+            </param>
+            <param name="cancellationToken">
+                <para xml:lang="en">Cancellation observed only before mutation begins.</para>
+                <para xml:lang="zh-CN">仅在修改开始前接受的取消信号。</para>
+            </param>
+            <returns>
+                <para xml:lang="en">Structured guard, verification, and recovery evidence.</para>
+                <para xml:lang="zh-CN">结构化的保护检查、验证与恢复证据。</para>
+            </returns>
+            <exception cref="T:System.ArgumentNullException">
+                <para xml:lang="en"><paramref name="request" /> is <see langword="null" />.</para>
+                <para xml:lang="zh-CN"><paramref name="request" /> 为 <see langword="null" />。</para>
+            </exception>
         </member>
         <member name="T:STS2RitsuLib.Saves.RunHistoryMissingModelSupport">
             <summary>
@@ -52282,11 +52871,11 @@
             <summary>
                 <para xml:lang="en">
                     Creates a Spine <see cref="T:MegaCrit.Sts2.Core.Animation.CreatureAnimator" />, or returns <see langword="null" /> to use
-                    <see cref="M:MegaCrit.Sts2.Core.Models.CharacterModel.GenerateAnimator(MegaCrit.Sts2.Core.Bindings.MegaSpine.MegaSprite)" />.
+                    <see cref="M:MegaCrit.Sts2.Core.Models.CharacterModel.GenerateAnimator(MegaCrit.Sts2.Core.Bindings.MegaSpine.MegaSprite,MegaCrit.Sts2.Core.Entities.Creatures.Creature)" />.
                 </para>
                 <para xml:lang="zh-CN">
                     创建 Spine <see cref="T:MegaCrit.Sts2.Core.Animation.CreatureAnimator" />；返回 <see langword="null" /> 时使用
-                    <see cref="M:MegaCrit.Sts2.Core.Models.CharacterModel.GenerateAnimator(MegaCrit.Sts2.Core.Bindings.MegaSpine.MegaSprite)" />。
+                    <see cref="M:MegaCrit.Sts2.Core.Models.CharacterModel.GenerateAnimator(MegaCrit.Sts2.Core.Bindings.MegaSpine.MegaSprite,MegaCrit.Sts2.Core.Entities.Creatures.Creature)" />。
                 </para>
             </summary>
             <param name="controller">
@@ -57491,6 +58080,65 @@
                 <para xml:lang="zh-CN">将 <see cref="M:STS2RitsuLib.Content.ModContentRegistry.RegisterActEnterForce``1(System.Int32,System.Int32,System.Func{STS2RitsuLib.Content.ActEnterResolveContext,System.Boolean})" /> 加入队列。</para>
             </summary>
         </member>
+        <member name="M:STS2RitsuLib.Scaffolding.Content.ModContentPackBuilder.ActEnterForcePool(System.Int32,System.Int32,System.Func{STS2RitsuLib.Content.ActEnterResolveContext,System.Boolean},System.ValueTuple{System.Type,System.Double}[])">
+            <summary>
+                <para xml:lang="en">
+                    Queues a forced choice restricted to the supplied weighted act candidates.
+                    Equal weights give equal probabilities; no existing act is implicitly added.
+                </para>
+                <para xml:lang="zh-CN">
+                    将仅限于指定加权章节候选的强制选择加入队列。
+                    相同权重对应相同概率，不会自动添加已有章节。
+                </para>
+            </summary>
+            <remarks>
+                <para xml:lang="en">
+                    Arguments are validated and the array is copied immediately, so later caller mutations do not affect
+                    the queued rule. Apply before content freezes; no ordinary pool declaration is required.
+                    Registration occurs when the queued step is applied. Repeated calls create independent rules.
+                    Priority, callback timing, process lifetime and selection follow
+                    <see cref="M:STS2RitsuLib.Content.ModContentRegistry.RegisterActEnterForcePool(System.Int32,System.Int32,System.Func{STS2RitsuLib.Content.ActEnterResolveContext,System.Boolean},System.ValueTuple{System.Type,System.Double}[])" />.
+                </para>
+                <para xml:lang="zh-CN">
+                    立即验证参数并复制数组，调用方后续修改不会影响已排队的规则。
+                    必须在内容冻结前应用，无须声明普通池。应用队列步骤时才会注册，重复调用会创建独立规则。
+                    优先级、回调时机、进程生命周期与抽选规则见
+                    <see cref="M:STS2RitsuLib.Content.ModContentRegistry.RegisterActEnterForcePool(System.Int32,System.Int32,System.Func{STS2RitsuLib.Content.ActEnterResolveContext,System.Boolean},System.ValueTuple{System.Type,System.Double}[])" />。
+                </para>
+            </remarks>
+            <returns>
+                <para xml:lang="en">This builder for further content registration.</para>
+                <para xml:lang="zh-CN">当前构建器，用于继续注册内容。</para>
+            </returns>
+            <param name="slotIndex">
+                <para xml:lang="en">The non-negative, zero-based act slot; 1 is the second act.</para>
+                <para xml:lang="zh-CN">非负、从零开始的章节槽位；1 表示第二幕。</para>
+            </param>
+            <param name="priority">
+                <para xml:lang="en">The priority compared with all force rules; earlier registration breaks ties.</para>
+                <para xml:lang="zh-CN">与所有强制规则比较的优先级；同优先级时先注册者胜出。</para>
+            </param>
+            <param name="eligibility">
+                <para xml:lang="en">A non-null, deterministic callback deciding whether the entire set applies at act entry.</para>
+                <para xml:lang="zh-CN">在进入章节时判断整个集合是否适用的非空、确定性回调。</para>
+            </param>
+            <param name="candidates">
+                <para xml:lang="en">1 to 256 distinct, non-null concrete act types and finite, strictly positive weights.</para>
+                <para xml:lang="zh-CN">1 到 256 个互不重复的非空具体章节类型及有限正权重。</para>
+            </param>
+            <exception cref="T:System.ArgumentNullException">
+                <para xml:lang="en">The callback, array, or a candidate type is null.</para>
+                <para xml:lang="zh-CN">回调、数组或某个候选类型为空。</para>
+            </exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+                <para xml:lang="en">The slot is negative or the candidate count is outside [1, 256].</para>
+                <para xml:lang="zh-CN">槽位为负数或候选数量不在 [1, 256] 范围内。</para>
+            </exception>
+            <exception cref="T:System.ArgumentException">
+                <para xml:lang="en">A candidate type is invalid or duplicated, or a weight is non-finite or non-positive.</para>
+                <para xml:lang="zh-CN">候选类型无效或重复，或权重不是有限正数。</para>
+            </exception>
+        </member>
         <member name="M:STS2RitsuLib.Scaffolding.Content.ModContentPackBuilder.ActEnterUniformPool(System.Int32)">
             <summary>
                 <para xml:lang="en">Queues <see cref="M:STS2RitsuLib.Content.ModContentRegistry.RegisterActEnterUniformPool(System.Int32)" />.</para>
@@ -57526,10 +58174,13 @@
         <member name="M:STS2RitsuLib.Scaffolding.Content.ModContentPackBuilder.ActEnterWeightedPoolBaseline(System.Int32,System.Func{STS2RitsuLib.Content.ActEnterResolveContext,System.Double})">
             <summary>
                 <para xml:lang="en">
-                    Queues <see cref="M:STS2RitsuLib.Content.ModContentRegistry.RegisterActEnterWeightedPoolBaseline(System.Int32,System.Func{STS2RitsuLib.Content.ActEnterResolveContext,System.Double})" />.
+                    Retained for compatibility. The existing act always has fixed weight 1.
+                    Queues legacy argument and lifecycle validation; the callback is never invoked.
+                    Remove this call and configure only candidate weights.
                 </para>
                 <para xml:lang="zh-CN">
-                    将 <see cref="M:STS2RitsuLib.Content.ModContentRegistry.RegisterActEnterWeightedPoolBaseline(System.Int32,System.Func{STS2RitsuLib.Content.ActEnterResolveContext,System.Double})" /> 加入队列。
+                    为兼容旧调用而保留。已有章节始终具有固定权重 1。
+                    将旧式参数与生命周期检查加入队列，不执行权重回调。请移除此调用，仅配置候选权重。
                 </para>
             </summary>
         </member>
@@ -60110,12 +60761,6 @@
                 <para xml:lang="zh-CN">移除所有已注册的牌组查看界面样式提供器。</para>
             </summary>
         </member>
-        <member name="T:STS2RitsuLib.Scaffolding.Content.Patches.EpochArtPlaceholderPatch">
-            <summary>
-                <para xml:lang="en">Allows mod epoch artwork to suppress the timeline placeholder label.</para>
-                <para xml:lang="zh-CN">允许模组时代美术资源隐藏时间线占位标签。</para>
-            </summary>
-        </member>
         <member name="T:STS2RitsuLib.Scaffolding.Content.Patches.CardPortraitPathPatch">
             <summary>
                 <para xml:lang="en">
@@ -61750,6 +62395,12 @@
                 <para xml:lang="zh-CN">移除所有卡牌和卡池材质提供器。</para>
             </summary>
         </member>
+        <member name="T:STS2RitsuLib.Scaffolding.Content.Patches.HoverTipCardVisualContextPatch">
+            <summary>
+                <para xml:lang="en">Scopes character artwork to card rendering without replacing hover tips or card models.</para>
+                <para xml:lang="zh-CN">将角色美术上下文限定于卡牌绘制，不替换悬浮提示或卡牌模型。</para>
+            </summary>
+        </member>
         <member name="T:STS2RitsuLib.Scaffolding.Content.Patches.ImageHelperAncientModRunHistoryIconPathPatch">
             <summary>
                 <para xml:lang="en">
@@ -61924,9 +62575,9 @@
             <summary>
                 <para xml:lang="en">
                     Integrates runtime creature-animator factories with
-                    <see cref="M:MegaCrit.Sts2.Core.Models.CharacterModel.GenerateAnimator(MegaCrit.Sts2.Core.Bindings.MegaSpine.MegaSprite)" />.
+                    <see cref="M:MegaCrit.Sts2.Core.Models.CharacterModel.GenerateAnimator(MegaCrit.Sts2.Core.Bindings.MegaSpine.MegaSprite,MegaCrit.Sts2.Core.Entities.Creatures.Creature)" />.
                 </para>
-                <para xml:lang="zh-CN">将运行时生物动画器工厂接入 <see cref="M:MegaCrit.Sts2.Core.Models.CharacterModel.GenerateAnimator(MegaCrit.Sts2.Core.Bindings.MegaSpine.MegaSprite)" />。</para>
+                <para xml:lang="zh-CN">将运行时生物动画器工厂接入 <see cref="M:MegaCrit.Sts2.Core.Models.CharacterModel.GenerateAnimator(MegaCrit.Sts2.Core.Bindings.MegaSpine.MegaSprite,MegaCrit.Sts2.Core.Entities.Creatures.Creature)" />。</para>
             </summary>
         </member>
         <member name="M:STS2RitsuLib.Scaffolding.Content.Patches.ModModelRuntimeGodotFactoryPatches.CharacterCreatureAnimatorRuntimeFactoryPatch.Prefix(MegaCrit.Sts2.Core.Models.CharacterModel,MegaCrit.Sts2.Core.Bindings.MegaSpine.MegaSprite,MegaCrit.Sts2.Core.Animation.CreatureAnimator@)">
@@ -65851,7 +66502,7 @@
                 <para xml:lang="zh-CN">为模组自己的搜索控件提供对 RitsuLib 本地文本匹配的只读访问。</para>
             </summary>
         </member>
-        <member name="M:STS2RitsuLib.Search.RitsuSearch.Contains(System.String,System.String)">
+        <member name="M:STS2RitsuLib.Search.RitsuSearch.Contains(System.String,System.String,STS2RitsuLib.Search.RitsuSearchOptions)">
             <summary>
                 <para xml:lang="en">
                     Tests whether <paramref name="text" /> contains <paramref name="term" /> directly or through an enabled
@@ -65871,6 +66522,16 @@
                 <para xml:lang="en">The substring or alternate representation to find.</para>
                 <para xml:lang="zh-CN">要查找的子串或可选表示。</para>
             </param>
+            <param name="options">
+                <para xml:lang="en">
+                    Immutable matching policy for this operation; null follows user defaults. Explicit choices affect only
+                    this operation and never load or download provider data. Prepared text retains this policy.
+                </para>
+                <para xml:lang="zh-CN">
+                    当前操作的不可变匹配策略；null 遵循用户默认值。显式选项仅影响当前操作，不会加载或下载提供器数据。
+                    预处理文本会保留此策略。
+                </para>
+            </param>
             <returns>
                 <para xml:lang="en">
                     <see langword="true" /> when a case-insensitive direct or expanded match exists; otherwise,
@@ -65886,7 +66547,7 @@
                 <para xml:lang="zh-CN"><paramref name="text" /> 或 <paramref name="term" /> 为 null。</para>
             </exception>
         </member>
-        <member name="M:STS2RitsuLib.Search.RitsuSearch.ContainsAsync(System.String,System.String,System.Threading.CancellationToken)">
+        <member name="M:STS2RitsuLib.Search.RitsuSearch.ContainsAsync(System.String,System.String,STS2RitsuLib.Search.RitsuSearchOptions,System.Threading.CancellationToken)">
             <summary>
                 <para xml:lang="en">
                     Asynchronously tests one source text. Expansion work is cached and performed away from the calling
@@ -65905,6 +66566,16 @@
                 <para xml:lang="en">The substring or alternate representation to find.</para>
                 <para xml:lang="zh-CN">要查找的子串或可选表示。</para>
             </param>
+            <param name="options">
+                <para xml:lang="en">
+                    Immutable matching policy for this operation; null follows user defaults. Explicit choices affect only
+                    this operation and never load or download provider data. Prepared text retains this policy.
+                </para>
+                <para xml:lang="zh-CN">
+                    当前操作的不可变匹配策略；null 遵循用户默认值。显式选项仅影响当前操作，不会加载或下载提供器数据。
+                    预处理文本会保留此策略。
+                </para>
+            </param>
             <param name="cancellationToken">
                 <para xml:lang="en">A token that stops waiting for the result.</para>
                 <para xml:lang="zh-CN">用于停止等待结果的取消令牌。</para>
@@ -65922,17 +66593,17 @@
                 <para xml:lang="zh-CN"><paramref name="cancellationToken" /> 已取消。</para>
             </exception>
         </member>
-        <member name="M:STS2RitsuLib.Search.RitsuSearch.SearchAsync``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.String,System.Int32,System.Threading.CancellationToken)">
+        <member name="M:STS2RitsuLib.Search.RitsuSearch.SearchAsync``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.String,System.Int32,STS2RitsuLib.Search.RitsuSearchOptions,System.Threading.CancellationToken)">
             <summary>
                 <para xml:lang="en">
                     Searches a sequence asynchronously and returns one complete, source-ordered result list. At most
                     <paramref name="maximumResults" /> matches are requested; enumeration stops after that requirement is
-                    satisfied. Use <see cref="M:STS2RitsuLib.Search.RitsuSearch.SearchStreamAsync``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.String,System.Int32,System.Threading.CancellationToken)" /> when results should appear progressively.
+                    satisfied. Use <see cref="M:STS2RitsuLib.Search.RitsuSearch.SearchStreamAsync``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.String,System.Int32,STS2RitsuLib.Search.RitsuSearchOptions,System.Threading.CancellationToken)" /> when results should appear progressively.
                 </para>
                 <para xml:lang="zh-CN">
                     异步搜索序列并一次返回按源顺序排列的完整结果列表。最多请求
                     <paramref name="maximumResults" /> 个匹配项，达到该需求后停止枚举。需要逐步显示结果时使用
-                    <see cref="M:STS2RitsuLib.Search.RitsuSearch.SearchStreamAsync``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.String,System.Int32,System.Threading.CancellationToken)" />。
+                    <see cref="M:STS2RitsuLib.Search.RitsuSearch.SearchStreamAsync``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.String,System.Int32,STS2RitsuLib.Search.RitsuSearchOptions,System.Threading.CancellationToken)" />。
                 </para>
             </summary>
             <typeparam name="T">
@@ -65954,6 +66625,16 @@
             <param name="maximumResults">
                 <para xml:lang="en">The positive number of matches required before enumeration may stop.</para>
                 <para xml:lang="zh-CN">达到后可以停止枚举的正数匹配项数量。</para>
+            </param>
+            <param name="options">
+                <para xml:lang="en">
+                    Immutable matching policy for this operation; null follows user defaults. Explicit choices affect only
+                    this operation and never load or download provider data. Prepared text retains this policy.
+                </para>
+                <para xml:lang="zh-CN">
+                    当前操作的不可变匹配策略；null 遵循用户默认值。显式选项仅影响当前操作，不会加载或下载提供器数据。
+                    预处理文本会保留此策略。
+                </para>
             </param>
             <param name="cancellationToken">
                 <para xml:lang="en">A token that cancels enumeration and waiting.</para>
@@ -65980,7 +66661,7 @@
                 <para xml:lang="zh-CN"><paramref name="cancellationToken" /> 已取消。</para>
             </exception>
         </member>
-        <member name="M:STS2RitsuLib.Search.RitsuSearch.SearchStreamAsync``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.String,System.Int32,System.Threading.CancellationToken)">
+        <member name="M:STS2RitsuLib.Search.RitsuSearch.SearchStreamAsync``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.String,System.Int32,STS2RitsuLib.Search.RitsuSearchOptions,System.Threading.CancellationToken)">
             <summary>
                 <para xml:lang="en">
                     Searches a sequence asynchronously and yields each match as it becomes available in source order.
@@ -66013,6 +66694,16 @@
                 <para xml:lang="en">The positive number of matches required before enumeration stops.</para>
                 <para xml:lang="zh-CN">达到后停止枚举的正数匹配项数量。</para>
             </param>
+            <param name="options">
+                <para xml:lang="en">
+                    Immutable matching policy for this operation; null follows user defaults. Explicit choices affect only
+                    this operation and never load or download provider data. Prepared text retains this policy.
+                </para>
+                <para xml:lang="zh-CN">
+                    当前操作的不可变匹配策略；null 遵循用户默认值。显式选项仅影响当前操作，不会加载或下载提供器数据。
+                    预处理文本会保留此策略。
+                </para>
+            </param>
             <param name="cancellationToken">
                 <para xml:lang="en">A token that cancels enumeration and waiting.</para>
                 <para xml:lang="zh-CN">用于取消枚举和等待的令牌。</para>
@@ -66038,7 +66729,7 @@
                 <para xml:lang="zh-CN"><paramref name="cancellationToken" /> 已取消。</para>
             </exception>
         </member>
-        <member name="M:STS2RitsuLib.Search.RitsuSearch.Prepare(System.String)">
+        <member name="M:STS2RitsuLib.Search.RitsuSearch.Prepare(System.String,STS2RitsuLib.Search.RitsuSearchOptions)">
             <summary>
                 <para xml:lang="en">
                     Prepares immutable source text for repeated matching. The returned object is thread-safe and refreshes
@@ -66055,6 +66746,16 @@
                     The source text retained by the returned object until that object is no longer referenced.
                 </para>
                 <para xml:lang="zh-CN">返回对象在不再被引用前会保留的源文本。</para>
+            </param>
+            <param name="options">
+                <para xml:lang="en">
+                    Immutable matching policy for this operation; null follows user defaults. Explicit choices affect only
+                    this operation and never load or download provider data. Prepared text retains this policy.
+                </para>
+                <para xml:lang="zh-CN">
+                    当前操作的不可变匹配策略；null 遵循用户默认值。显式选项仅影响当前操作，不会加载或下载提供器数据。
+                    预处理文本会保留此策略。
+                </para>
             </param>
             <returns>
                 <para xml:lang="en">A reusable search-text object owned by the caller.</para>
@@ -66304,6 +67005,90 @@
                 <para xml:lang="en">The provider ID is already registered.</para>
                 <para xml:lang="zh-CN">提供器 ID 已被注册。</para>
             </exception>
+        </member>
+        <member name="T:STS2RitsuLib.Search.RitsuSearchOptions">
+            <summary>
+                <para xml:lang="en">
+                    Immutable matching policy owned by a caller. Explicit choices override the user's default only
+                    for this policy; they never change settings, register providers, or load or download dictionaries.
+                    A missing provider or dictionary produces no expanded matches. Direct text matching always remains enabled.
+                </para>
+                <para xml:lang="zh-CN">
+                    由调用方持有的不可变匹配策略。显式选项仅为当前策略覆盖用户默认值，不会修改设置、注册提供器或
+                    加载及下载词典。缺少提供器或词典时不产生扩展匹配。直接文本匹配始终启用。
+                </para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Search.RitsuSearchOptions.ProviderOverrides">
+            <summary>
+                <para xml:lang="en">
+                    Gets or initializes explicit per-provider choices, overriding user settings and
+                    <see cref="P:STS2RitsuLib.Search.RitsuSearchOptions.UseOtherProviders" />. Keys are case-insensitive registered provider IDs; unknown IDs
+                    remain inactive until registered. The input is copied; later caller mutations have no effect.
+                    Pinyin's per-form choices, when set, take precedence over its provider choice.
+                </para>
+                <para xml:lang="zh-CN">
+                    获取或初始化逐提供器的显式选项，覆盖用户设置及 <see cref="P:STS2RitsuLib.Search.RitsuSearchOptions.UseOtherProviders" />。
+                    键为不区分大小写的提供器 ID；未知 ID 在注册前不生效。输入会复制，调用方后续修改不影响策略。
+                    显式全拼及首字母选项优先于拼音提供器选项。
+                </para>
+            </summary>
+            <exception cref="T:System.ArgumentNullException">
+                <para xml:lang="en">The dictionary is null.</para>
+                <para xml:lang="zh-CN">字典为 null。</para>
+            </exception>
+            <exception cref="T:System.ArgumentException">
+                <para xml:lang="en">
+                    More than 128 entries, duplicate case-insensitive IDs, or IDs not consisting of 1–128 ASCII
+                    letters, digits, periods, hyphens, or underscores are supplied.
+                </para>
+                <para xml:lang="zh-CN">
+                    超过 128 项、ID 不区分大小写重复，或 ID 不由 1–128 个 ASCII 字母、数字、点、连字符及下划线组成。
+                </para>
+            </exception>
+        </member>
+        <member name="P:STS2RitsuLib.Search.RitsuSearchOptions.Default">
+            <summary>
+                <para xml:lang="en">Gets the shared policy that follows user defaults for all registered providers.</para>
+                <para xml:lang="zh-CN">获取所有已注册提供器均遵循用户默认值的共享策略。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Search.RitsuSearchOptions.Literal">
+            <summary>
+                <para xml:lang="en">Gets a shared policy that never invokes expansion providers.</para>
+                <para xml:lang="zh-CN">获取从不调用扩展提供器的共享策略。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Search.RitsuSearchOptions.Pinyin">
+            <summary>
+                <para xml:lang="en">
+                    Gets or initializes full pinyin matching, including alternate readings. Null follows the pinyin
+                    provider override, or the user's setting when absent. This choice is independent of initials.
+                </para>
+                <para xml:lang="zh-CN">
+                    获取或初始化包含多音字读音的全拼匹配。null 遵循拼音提供器覆盖值，未覆盖时使用用户设置；与首字母选项独立。
+                </para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Search.RitsuSearchOptions.PinyinInitials">
+            <summary>
+                <para xml:lang="en">
+                    Gets or initializes pinyin-initial matching; null follows the provider override, or the user's setting when absent.
+                </para>
+                <para xml:lang="zh-CN">获取或初始化拼音首字母匹配；null 遵循提供器覆盖值，未覆盖时使用用户设置。</para>
+            </summary>
+        </member>
+        <member name="P:STS2RitsuLib.Search.RitsuSearchOptions.UseOtherProviders">
+            <summary>
+                <para xml:lang="en">
+                    Gets or initializes whether other user-enabled expansion providers may run. Defaults to true;
+                    false excludes providers without an explicit override, without changing registration or user settings.
+                </para>
+                <para xml:lang="zh-CN">
+                    获取或初始化是否允许其他已由用户启用的扩展提供器运行。默认为 true；false 排除没有显式覆盖值的提供器，
+                    不改变注册及用户设置。
+                </para>
+            </summary>
         </member>
         <member name="T:STS2RitsuLib.Settings.ModSettingsOpenFolderDialog">
             <summary>
@@ -66567,6 +67352,303 @@
                 </para>
             </summary>
         </member>
+        <member name="T:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName">
+            <summary>
+            Cached StringNames for the methods contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.AddExpressionEditor">
+            <summary>
+            Cached name for the 'AddExpressionEditor' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.FieldPrefix">
+            <summary>
+            Cached name for the 'FieldPrefix' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.RestoreSearchState">
+            <summary>
+            Cached name for the 'RestoreSearchState' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.BindSearch">
+            <summary>
+            Cached name for the 'BindSearch' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.AddNormalFilterControls">
+            <summary>
+            Cached name for the 'AddNormalFilterControls' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.SwitchMode">
+            <summary>
+            Cached name for the 'SwitchMode' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.UpdateSearchMode">
+            <summary>
+            Cached name for the 'UpdateSearchMode' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName._EnterTree">
+            <summary>
+            Cached name for the '_EnterTree' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName._ExitTree">
+            <summary>
+            Cached name for the '_ExitTree' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName._Process">
+            <summary>
+            Cached name for the '_Process' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName._UnhandledInput">
+            <summary>
+            Cached name for the '_UnhandledInput' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.ObserveNestedPopup">
+            <summary>
+            Cached name for the 'ObserveNestedPopup' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.Open">
+            <summary>
+            Cached name for the 'Open' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.Close">
+            <summary>
+            Cached name for the 'Close' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.CloseNestedPopups">
+            <summary>
+            Cached name for the 'CloseNestedPopups' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.LayoutPanel">
+            <summary>
+            Cached name for the 'LayoutPanel' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.RememberFilters">
+            <summary>
+            Cached name for the 'RememberFilters' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.FormatQueryError">
+            <summary>
+            Cached name for the 'FormatQueryError' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.Restore">
+            <summary>
+            Cached name for the 'Restore' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.RebuildControls">
+            <summary>
+            Cached name for the 'RebuildControls' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.Section">
+            <summary>
+            Cached name for the 'Section' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.TextLabel">
+            <summary>
+            Cached name for the 'TextLabel' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.Paragraph">
+            <summary>
+            Cached name for the 'Paragraph' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.AddRow">
+            <summary>
+            Cached name for the 'AddRow' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.SaveAndRefresh">
+            <summary>
+            Cached name for the 'SaveAndRefresh' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.RefreshSummary">
+            <summary>
+            Cached name for the 'RefreshSummary' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.FieldLabel">
+            <summary>
+            Cached name for the 'FieldLabel' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.MethodName.L">
+            <summary>
+            Cached name for the 'L' method.
+            </summary>
+        </member>
+        <member name="M:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.GetGodotMethodList">
+            <summary>
+            Get the method information for all the methods declared in this class.
+            This method is used by Godot to register the available methods in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)">
+            <inheritdoc/>
+        </member>
+        <member name="T:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName">
+            <summary>
+            Cached StringNames for the properties and fields contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName.IsAdvanced">
+            <summary>
+            Cached name for the 'IsAdvanced' property.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName.QueryError">
+            <summary>
+            Cached name for the 'QueryError' property.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName._matchAnyCondition">
+            <summary>
+            Cached name for the '_matchAnyCondition' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName._catalogId">
+            <summary>
+            Cached name for the '_catalogId' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName._primaryFilterId">
+            <summary>
+            Cached name for the '_primaryFilterId' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName._body">
+            <summary>
+            Cached name for the '_body' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName._backdrop">
+            <summary>
+            Cached name for the '_backdrop' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName._panel">
+            <summary>
+            Cached name for the '_panel' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName._toggle">
+            <summary>
+            Cached name for the '_toggle' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName._modeSwitch">
+            <summary>
+            Cached name for the '_modeSwitch' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName._summary">
+            <summary>
+            Cached name for the '_summary' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName._normalToolbar">
+            <summary>
+            Cached name for the '_normalToolbar' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName._advancedToolbar">
+            <summary>
+            Cached name for the '_advancedToolbar' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName._advancedInput">
+            <summary>
+            Cached name for the '_advancedInput' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName._edit">
+            <summary>
+            Cached name for the '_edit' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName._reset">
+            <summary>
+            Cached name for the '_reset' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName._sidebarHost">
+            <summary>
+            Cached name for the '_sidebarHost' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName._input">
+            <summary>
+            Cached name for the '_input' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName._normalQuery">
+            <summary>
+            Cached name for the '_normalQuery' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName._advancedQuery">
+            <summary>
+            Cached name for the '_advancedQuery' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName._availableFields">
+            <summary>
+            Cached name for the '_availableFields' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.PropertyName._expanded">
+            <summary>
+            Cached name for the '_expanded' field.
+            </summary>
+        </member>
+        <member name="M:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.GetGodotPropertyList">
+            <summary>
+            Get the property information for all the properties declared in this class.
+            This method is used by Godot to register the available properties in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="M:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="T:STS2RitsuLib.Settings.RitsuCatalogSearchMenu.SignalName">
+            <summary>
+            Cached StringNames for the signals contained in this class, for fast lookup.
+            </summary>
+        </member>
         <member name="T:STS2RitsuLib.Settings.RitsuDebugCardCatalog.MethodName">
             <summary>
             Cached StringNames for the methods contained in this class, for fast lookup.
@@ -66590,6 +67672,11 @@
         <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.MethodName._ExitTree">
             <summary>
             Cached name for the '_ExitTree' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.MethodName.OnShellThemeChanged">
+            <summary>
+            Cached name for the 'OnShellThemeChanged' method.
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.MethodName._UnhandledInput">
@@ -66620,11 +67707,6 @@
         <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.MethodName.SortLabel">
             <summary>
             Cached name for the 'SortLabel' method.
-            </summary>
-        </member>
-        <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.MethodName.AddFilterControls">
-            <summary>
-            Cached name for the 'AddFilterControls' method.
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.MethodName.AddPrimaryFilterControls">
@@ -66665,6 +67747,16 @@
         <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.MethodName.EnsureHolderPool">
             <summary>
             Cached name for the 'EnsureHolderPool' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.MethodName.CanReorderItems">
+            <summary>
+            Cached name for the 'CanReorderItems' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.MethodName.ReorderItemToTarget">
+            <summary>
+            Cached name for the 'ReorderItemToTarget' method.
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.MethodName.OnHolderPressed">
@@ -66745,6 +67837,11 @@
             Cached name for the 'SearchPlaceholder' property.
             </summary>
         </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.PropertyName.CanReorderCurrentView">
+            <summary>
+            Cached name for the 'CanReorderCurrentView' property.
+            </summary>
+        </member>
         <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.PropertyName._primaryFilterBreakBeforeOptionId">
             <summary>
             Cached name for the '_primaryFilterBreakBeforeOptionId' field.
@@ -66753,6 +67850,21 @@
         <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.PropertyName._primaryFilterId">
             <summary>
             Cached name for the '_primaryFilterId' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.PropertyName._primaryFiltersRow">
+            <summary>
+            Cached name for the '_primaryFiltersRow' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.PropertyName._preserveSourceOrder">
+            <summary>
+            Cached name for the '_preserveSourceOrder' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.PropertyName._reorderHint">
+            <summary>
+            Cached name for the '_reorderHint' field.
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.PropertyName._canvas">
@@ -66810,6 +67922,11 @@
             Cached name for the '_resultCount' field.
             </summary>
         </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.PropertyName._reorderHintLabel">
+            <summary>
+            Cached name for the '_reorderHintLabel' field.
+            </summary>
+        </member>
         <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.PropertyName._scroll">
             <summary>
             Cached name for the '_scroll' field.
@@ -66828,6 +67945,16 @@
         <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.PropertyName._searchRevision">
             <summary>
             Cached name for the '_searchRevision' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.PropertyName._searchPreferenceId">
+            <summary>
+            Cached name for the '_searchPreferenceId' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.PropertyName._searchMenu">
+            <summary>
+            Cached name for the '_searchMenu' field.
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Settings.RitsuDebugCardCatalog.PropertyName._selectedItemId">
@@ -67354,6 +68481,11 @@
             Cached name for the 'OnGraphContentMinimumSizeChanged' method.
             </summary>
         </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugMonsterIntentWindow.MethodName.OnShellThemeChanged">
+            <summary>
+            Cached name for the 'OnShellThemeChanged' method.
+            </summary>
+        </member>
         <member name="F:STS2RitsuLib.Settings.RitsuDebugMonsterIntentWindow.MethodName.QueueRefresh">
             <summary>
             Cached name for the 'QueueRefresh' method.
@@ -67440,6 +68572,11 @@
         <member name="F:STS2RitsuLib.Settings.RitsuDebugMonsterIntentWindow.PropertyName._targetAvailable">
             <summary>
             Cached name for the '_targetAvailable' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugMonsterIntentWindow.PropertyName._statusIsFailure">
+            <summary>
+            Cached name for the '_statusIsFailure' field.
             </summary>
         </member>
         <member name="M:STS2RitsuLib.Settings.RitsuDebugMonsterIntentWindow.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
@@ -67593,6 +68730,16 @@
             Cached name for the 'SetSelectedIndex' method.
             </summary>
         </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetCardGrid.MethodName._ExitTree">
+            <summary>
+            Cached name for the '_ExitTree' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetCardGrid.MethodName._Ready">
+            <summary>
+            Cached name for the '_Ready' method.
+            </summary>
+        </member>
         <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetCardGrid.MethodName.RefreshCard">
             <summary>
             Cached name for the 'RefreshCard' method.
@@ -67601,6 +68748,21 @@
         <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetCardGrid.MethodName.Rebuild">
             <summary>
             Cached name for the 'Rebuild' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetCardGrid.MethodName.ReleaseCards">
+            <summary>
+            Cached name for the 'ReleaseCards' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetCardGrid.MethodName.RefreshCardVisuals">
+            <summary>
+            Cached name for the 'RefreshCardVisuals' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetCardGrid.MethodName.RefreshTile">
+            <summary>
+            Cached name for the 'RefreshTile' method.
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetCardGrid.MethodName.ApplyTileSelection">
@@ -67705,6 +68867,16 @@
             Cached name for the '_Ready' method.
             </summary>
         </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetEditor.MethodName._ExitTree">
+            <summary>
+            Cached name for the '_ExitTree' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetEditor.MethodName.OnShellThemeChanged">
+            <summary>
+            Cached name for the 'OnShellThemeChanged' method.
+            </summary>
+        </member>
         <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetEditor.MethodName.BuildPresetRail">
             <summary>
             Cached name for the 'BuildPresetRail' method.
@@ -67785,6 +68957,16 @@
             Cached name for the 'MarkDirty' method.
             </summary>
         </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetEditor.MethodName.MarkInternalValuesDirty">
+            <summary>
+            Cached name for the 'MarkInternalValuesDirty' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetEditor.MethodName.ApplyUnsavedStyle">
+            <summary>
+            Cached name for the 'ApplyUnsavedStyle' method.
+            </summary>
+        </member>
         <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetEditor.MethodName.ShowCaptureDrawer">
             <summary>
             Cached name for the 'ShowCaptureDrawer' method.
@@ -67803,6 +68985,11 @@
         <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetEditor.MethodName.ShowManagementDrawer">
             <summary>
             Cached name for the 'ShowManagementDrawer' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetEditor.MethodName.ResetDrawerContent">
+            <summary>
+            Cached name for the 'ResetDrawerContent' method.
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetEditor.MethodName.SaveDraft">
@@ -67998,6 +69185,11 @@
             Cached name for the '_dirty' field.
             </summary>
         </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetEditor.PropertyName._dragLayer">
+            <summary>
+            Cached name for the '_dragLayer' field.
+            </summary>
+        </member>
         <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetEditor.PropertyName._drawerBody">
             <summary>
             Cached name for the '_drawerBody' field.
@@ -68011,6 +69203,11 @@
         <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetEditor.PropertyName._drawerPanel">
             <summary>
             Cached name for the '_drawerPanel' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetEditor.PropertyName._drawerPinnedBody">
+            <summary>
+            Cached name for the '_drawerPinnedBody' field.
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Settings.RitsuDebugStatePresetEditor.PropertyName._drawerTitle">
@@ -68159,11 +69356,6 @@
         <member name="F:STS2RitsuLib.Settings.RitsuDebugToolsPanel.MethodName.CreateAdjustmentContent">
             <summary>
             Cached name for the 'CreateAdjustmentContent' method.
-            </summary>
-        </member>
-        <member name="F:STS2RitsuLib.Settings.RitsuDebugToolsPanel.MethodName.AdjustmentSection">
-            <summary>
-            Cached name for the 'AdjustmentSection' method.
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Settings.RitsuDebugToolsPanel.MethodName.CreateAdjustmentPanel">
@@ -68334,6 +69526,11 @@
         <member name="F:STS2RitsuLib.Settings.RitsuDebugToolsPanel.MethodName.BuildWorkspace">
             <summary>
             Cached name for the 'BuildWorkspace' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugToolsPanel.MethodName.OnShellThemeChanged">
+            <summary>
+            Cached name for the 'OnShellThemeChanged' method.
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Settings.RitsuDebugToolsPanel.MethodName.SelectPage">
@@ -68572,6 +69769,16 @@
         <member name="F:STS2RitsuLib.Settings.RitsuDebugToolsPanel.PropertyName._stateRefreshScheduled">
             <summary>
             Cached name for the '_stateRefreshScheduled' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugToolsPanel.PropertyName._header">
+            <summary>
+            Cached name for the '_header' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Settings.RitsuDebugToolsPanel.PropertyName._statusIsError">
+            <summary>
+            Cached name for the '_statusIsError' field.
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Settings.RitsuDebugToolsPanel.PropertyName._status">
@@ -75099,10 +76306,10 @@
             <summary>
                 <para xml:lang="en">
                     Demonstrates attribute-based runtime-reflection settings with profile and callback bindings, localized
-                    text, buttons, and an interactive character Spine preview.
+                    text, buttons, and an interactive character animation preview.
                 </para>
                 <para xml:lang="zh-CN">
-                    演示基于特性的运行时反射设置，包括用户档与回调绑定、本地化文本、按钮及交互式角色 Spine 预览。
+                    演示基于特性的运行时反射设置，包括用户档与回调绑定、本地化文本、按钮及交互式角色动画预览。
                 </para>
             </summary>
         </member>
@@ -81952,10 +83159,12 @@
         <member name="P:STS2RitsuLib.Settings.ModSettingsUiResources.SettingsLineTheme">
             <summary>
                 <para xml:lang="en">
-                    Gets the native line theme used by standard settings rows.
+                    Gets a shared copy of the native line theme without text shadows or outlines, for readable
+                    settings rows on both light and dark surfaces. Callers must not modify this shared resource.
                 </para>
                 <para xml:lang="zh-CN">
-                    获取标准设置行使用的原版行主题。
+                    获取移除文字阴影和描边的原版行主题共享副本，确保设置行在浅色与深色背景上均清晰可读。
+                    调用方不得修改此共享资源。
                 </para>
             </summary>
         </member>
@@ -83248,9 +84457,9 @@
             Cached name for the 'SyncScrollbarContentGutters' method.
             </summary>
         </member>
-        <member name="F:STS2RitsuLib.Settings.RitsuModSettingsSubmenu.MethodName.ResetUiCachesForShellThemeChange">
+        <member name="F:STS2RitsuLib.Settings.RitsuModSettingsSubmenu.MethodName.ResetUiPresentationCaches">
             <summary>
-            Cached name for the 'ResetUiCachesForShellThemeChange' method.
+            Cached name for the 'ResetUiPresentationCaches' method.
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Settings.RitsuModSettingsSubmenu.MethodName.CreateTitleLabel">
@@ -84929,62 +86138,6 @@
                 <para xml:lang="en">The version 1 telemetry event-envelope schema.</para>
                 <para xml:lang="zh-CN">第一版遥测事件信封架构。</para>
             </summary>
-        </member>
-        <member name="M:STS2RitsuLib.Telemetry.Diagnostics.DiagnosticsTelemetryCollector.WindowsStackPathRegex">
-            <remarks>
-            Pattern:<br/>
-            <code>\\s+in\\s+[A-Za-z]:[^\\r\\n]*:line\\s+(\\d+)</code><br/>
-            Options:<br/>
-            <code>RegexOptions.CultureInvariant</code><br/>
-            Explanation:<br/>
-            <code>
-            ○ Match a whitespace character atomically at least once.<br/>
-            ○ Match the string "in".<br/>
-            ○ Match a whitespace character atomically at least once.<br/>
-            ○ Match a character in the set [A-Za-z].<br/>
-            ○ Match ':'.<br/>
-            ○ Match a character in the set [^\n\r] greedily any number of times.<br/>
-            ○ Match the string ":line".<br/>
-            ○ Match a whitespace character atomically at least once.<br/>
-            ○ 1st capture group.<br/>
-                ○ Match a Unicode digit atomically at least once.<br/>
-            </code>
-            </remarks>
-        </member>
-        <member name="M:STS2RitsuLib.Telemetry.Diagnostics.DiagnosticsTelemetryCollector.UnixStackPathRegex">
-            <remarks>
-            Pattern:<br/>
-            <code>\\s+in\\s+/[^\\r\\n]*:line\\s+(\\d+)</code><br/>
-            Options:<br/>
-            <code>RegexOptions.CultureInvariant</code><br/>
-            Explanation:<br/>
-            <code>
-            ○ Match a whitespace character atomically at least once.<br/>
-            ○ Match the string "in".<br/>
-            ○ Match a whitespace character atomically at least once.<br/>
-            ○ Match '/'.<br/>
-            ○ Match a character in the set [^\n\r] greedily any number of times.<br/>
-            ○ Match the string ":line".<br/>
-            ○ Match a whitespace character atomically at least once.<br/>
-            ○ 1st capture group.<br/>
-                ○ Match a Unicode digit atomically at least once.<br/>
-            </code>
-            </remarks>
-        </member>
-        <member name="M:STS2RitsuLib.Telemetry.Diagnostics.DiagnosticsTelemetryCollector.WindowsPathRegex">
-            <remarks>
-            Pattern:<br/>
-            <code>[A-Za-z]:[\\\\/][^\\r\\n\\t"']+</code><br/>
-            Options:<br/>
-            <code>RegexOptions.CultureInvariant</code><br/>
-            Explanation:<br/>
-            <code>
-            ○ Match a character in the set [A-Za-z].<br/>
-            ○ Match ':'.<br/>
-            ○ Match a character in the set [/\\].<br/>
-            ○ Match a character in the set [^\t\n\r"'] atomically at least once.<br/>
-            </code>
-            </remarks>
         </member>
         <member name="T:STS2RitsuLib.Telemetry.RitsuLibTelemetryBootstrap">
             <summary>
@@ -86774,6 +87927,11 @@
             Cached name for the '_ExitTree' method.
             </summary>
         </member>
+        <member name="F:STS2RitsuLib.Ui.Catalog.RitsuCatalogBrowser.MethodName.OnShellThemeChanged">
+            <summary>
+            Cached name for the 'OnShellThemeChanged' method.
+            </summary>
+        </member>
         <member name="F:STS2RitsuLib.Ui.Catalog.RitsuCatalogBrowser.MethodName.SelectItem">
             <summary>
             Cached name for the 'SelectItem' method.
@@ -87000,6 +88158,11 @@
         <member name="F:STS2RitsuLib.Ui.Catalog.RitsuCatalogBrowser.PropertyName._searchRevision">
             <summary>
             Cached name for the '_searchRevision' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.Catalog.RitsuCatalogBrowser.PropertyName._searchMenu">
+            <summary>
+            Cached name for the '_searchMenu' field.
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Ui.Catalog.RitsuCatalogBrowser.PropertyName._selectedItemId">
@@ -87597,6 +88760,408 @@
                 <para xml:lang="zh-CN">获取选中的目录项；清除选择时为 null。</para>
             </summary>
         </member>
+        <member name="T:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName">
+            <summary>
+            Cached StringNames for the methods contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.Find">
+            <summary>
+            Cached name for the 'Find' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.Install">
+            <summary>
+            Cached name for the 'Install' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.Initialize">
+            <summary>
+            Cached name for the 'Initialize' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName._EnterTree">
+            <summary>
+            Cached name for the '_EnterTree' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName._ExitTree">
+            <summary>
+            Cached name for the '_ExitTree' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName._Process">
+            <summary>
+            Cached name for the '_Process' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.RequestLayout">
+            <summary>
+            Cached name for the 'RequestLayout' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.RefreshLayout">
+            <summary>
+            Cached name for the 'RefreshLayout' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.SynchronizeItems">
+            <summary>
+            Cached name for the 'SynchronizeItems' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.TrackItem">
+            <summary>
+            Cached name for the 'TrackItem' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.UntrackItem">
+            <summary>
+            Cached name for the 'UntrackItem' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.PositionItems">
+            <summary>
+            Cached name for the 'PositionItems' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.OnScrollBarChanged">
+            <summary>
+            Cached name for the 'OnScrollBarChanged' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.SetScroll">
+            <summary>
+            Cached name for the 'SetScroll' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.EnsureVisible">
+            <summary>
+            Cached name for the 'EnsureVisible' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.InitializeDecorations">
+            <summary>
+            Cached name for the 'InitializeDecorations' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.AnimateRunInfo">
+            <summary>
+            Cached name for the 'AnimateRunInfo' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.ShowReticles">
+            <summary>
+            Cached name for the 'ShowReticles' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.HideReticles">
+            <summary>
+            Cached name for the 'HideReticles' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.UpdateDecorations">
+            <summary>
+            Cached name for the 'UpdateDecorations' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.HideDecorations">
+            <summary>
+            Cached name for the 'HideDecorations' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.DisposeDecorations">
+            <summary>
+            Cached name for the 'DisposeDecorations' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.ConnectInputEvents">
+            <summary>
+            Cached name for the 'ConnectInputEvents' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.DisconnectInputEvents">
+            <summary>
+            Cached name for the 'DisconnectInputEvents' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.IsNavigable">
+            <summary>
+            Cached name for the 'IsNavigable' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.OnWindowFocusExited">
+            <summary>
+            Cached name for the 'OnWindowFocusExited' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.GetDefaultFocus">
+            <summary>
+            Cached name for the 'GetDefaultFocus' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.RebuildNavigation">
+            <summary>
+            Cached name for the 'RebuildNavigation' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.OnGuiFocusChanged">
+            <summary>
+            Cached name for the 'OnGuiFocusChanged' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.OnButtonFocused">
+            <summary>
+            Cached name for the 'OnButtonFocused' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.OnButtonUnfocused">
+            <summary>
+            Cached name for the 'OnButtonUnfocused' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.OnScreenChanged">
+            <summary>
+            Cached name for the 'OnScreenChanged' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.OnVisibilityChanged">
+            <summary>
+            Cached name for the 'OnVisibilityChanged' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.OnMouseDetected">
+            <summary>
+            Cached name for the 'OnMouseDetected' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.OnControllerDetected">
+            <summary>
+            Cached name for the 'OnControllerDetected' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.RefreshInteraction">
+            <summary>
+            Cached name for the 'RefreshInteraction' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.RestoreFocusIfMissing">
+            <summary>
+            Cached name for the 'RestoreFocusIfMissing' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName._GuiInput">
+            <summary>
+            Cached name for the '_GuiInput' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.FilterButtonInput">
+            <summary>
+            Cached name for the 'FilterButtonInput' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.CancelPress">
+            <summary>
+            Cached name for the 'CancelPress' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.MethodName.IsRowFullyVisible">
+            <summary>
+            Cached name for the 'IsRowFullyVisible' method.
+            </summary>
+        </member>
+        <member name="M:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.GetGodotMethodList">
+            <summary>
+            Get the method information for all the methods declared in this class.
+            This method is used by Godot to register the available methods in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)">
+            <inheritdoc/>
+        </member>
+        <member name="T:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName">
+            <summary>
+            Cached StringNames for the properties and fields contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName.Initialized">
+            <summary>
+            Cached name for the 'Initialized' property.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName.ScrollLimit">
+            <summary>
+            Cached name for the 'ScrollLimit' property.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName.IsActive">
+            <summary>
+            Cached name for the 'IsActive' property.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._mainMenu">
+            <summary>
+            Cached name for the '_mainMenu' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._scrollBar">
+            <summary>
+            Cached name for the '_scrollBar' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._designOffsets">
+            <summary>
+            Cached name for the '_designOffsets' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._designAnchor">
+            <summary>
+            Cached name for the '_designAnchor' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._separation">
+            <summary>
+            Cached name for the '_separation' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._scroll">
+            <summary>
+            Cached name for the '_scroll' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._contentHeight">
+            <summary>
+            Cached name for the '_contentHeight' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._columnCenter">
+            <summary>
+            Cached name for the '_columnCenter' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._layoutDirty">
+            <summary>
+            Cached name for the '_layoutDirty' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._layingOut">
+            <summary>
+            Cached name for the '_layingOut' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._initializeOnEnter">
+            <summary>
+            Cached name for the '_initializeOnEnter' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._reticleLeft">
+            <summary>
+            Cached name for the '_reticleLeft' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._reticleRight">
+            <summary>
+            Cached name for the '_reticleRight' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._reticleButton">
+            <summary>
+            Cached name for the '_reticleButton' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._reticleTween">
+            <summary>
+            Cached name for the '_reticleTween' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._reticleProgress">
+            <summary>
+            Cached name for the '_reticleProgress' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._runInfo">
+            <summary>
+            Cached name for the '_runInfo' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._runInfoButton">
+            <summary>
+            Cached name for the '_runInfoButton' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._runInfoOffset">
+            <summary>
+            Cached name for the '_runInfoOffset' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._runInfoTween">
+            <summary>
+            Cached name for the '_runInfoTween' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._runInfoProgress">
+            <summary>
+            Cached name for the '_runInfoProgress' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._lastFocused">
+            <summary>
+            Cached name for the '_lastFocused' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._pressedButton">
+            <summary>
+            Cached name for the '_pressedButton' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._lastFocusedIndex">
+            <summary>
+            Cached name for the '_lastFocusedIndex' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._wasActive">
+            <summary>
+            Cached name for the '_wasActive' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._restorePending">
+            <summary>
+            Cached name for the '_restorePending' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.PropertyName._controllerManager">
+            <summary>
+            Cached name for the '_controllerManager' field.
+            </summary>
+        </member>
+        <member name="M:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.GetGodotPropertyList">
+            <summary>
+            Get the property information for all the properties declared in this class.
+            This method is used by Godot to register the available properties in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="M:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="T:STS2RitsuLib.Ui.MainMenu.NMainMenuScroller.SignalName">
+            <summary>
+            Cached StringNames for the signals contained in this class, for fast lookup.
+            </summary>
+        </member>
         <member name="T:STS2RitsuLib.Ui.Overlay.RitsuDebugToolsDock.MethodName">
             <summary>
             Cached StringNames for the methods contained in this class, for fast lookup.
@@ -87670,6 +89235,21 @@
         <member name="F:STS2RitsuLib.Ui.Overlay.RitsuDebugToolsDock.MethodName.BuildPeekTab">
             <summary>
             Cached name for the 'BuildPeekTab' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.Overlay.RitsuDebugToolsDock.MethodName.OnShellThemeChanged">
+            <summary>
+            Cached name for the 'OnShellThemeChanged' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.Overlay.RitsuDebugToolsDock.MethodName.ApplyPeekTabTheme">
+            <summary>
+            Cached name for the 'ApplyPeekTabTheme' method.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.Overlay.RitsuDebugToolsDock.MethodName.CreatePeekTabStyle">
+            <summary>
+            Cached name for the 'CreatePeekTabStyle' method.
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Ui.Overlay.RitsuDebugToolsDock.MethodName.OnInterfaceStateRestored">
@@ -87835,6 +89415,11 @@
             Cached name for the '_rail' field.
             </summary>
         </member>
+        <member name="F:STS2RitsuLib.Ui.Overlay.RitsuDebugToolsDock.PropertyName._railScroll">
+            <summary>
+            Cached name for the '_railScroll' field.
+            </summary>
+        </member>
         <member name="F:STS2RitsuLib.Ui.Overlay.RitsuDebugToolsDock.PropertyName._railButtons">
             <summary>
             Cached name for the '_railButtons' field.
@@ -87868,6 +89453,16 @@
         <member name="F:STS2RitsuLib.Ui.Overlay.RitsuDebugToolsDock.PropertyName._workspaceMover">
             <summary>
             Cached name for the '_workspaceMover' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.Overlay.RitsuDebugToolsDock.PropertyName._workspaceSurface">
+            <summary>
+            Cached name for the '_workspaceSurface' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.Overlay.RitsuDebugToolsDock.PropertyName._workspaceSeparator">
+            <summary>
+            Cached name for the '_workspaceSeparator' field.
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Ui.Overlay.RitsuDebugToolsDock.PropertyName._workspaceResizeAnimating">
@@ -95161,6 +96756,11 @@
             Cached name for the 'BuildLayout' method.
             </summary>
         </member>
+        <member name="F:STS2RitsuLib.Ui.Windows.RitsuFloatingWindow.MethodName.OnShellThemeChanged">
+            <summary>
+            Cached name for the 'OnShellThemeChanged' method.
+            </summary>
+        </member>
         <member name="F:STS2RitsuLib.Ui.Windows.RitsuFloatingWindow.MethodName.AddResizeHandles">
             <summary>
             Cached name for the 'AddResizeHandles' method.
@@ -95277,6 +96877,11 @@
         <member name="F:STS2RitsuLib.Ui.Windows.RitsuFloatingWindow.PropertyName._header">
             <summary>
             Cached name for the '_header' field.
+            </summary>
+        </member>
+        <member name="F:STS2RitsuLib.Ui.Windows.RitsuFloatingWindow.PropertyName._title">
+            <summary>
+            Cached name for the '_title' field.
             </summary>
         </member>
         <member name="F:STS2RitsuLib.Ui.Windows.RitsuFloatingWindow.PropertyName._interactionLocked">
@@ -99637,10 +101242,12 @@
         <member name="E:STS2RitsuLib.Utils.I18N.Changed">
             <summary>
                 <para xml:lang="en">
-                    Raised by <see cref="M:STS2RitsuLib.Utils.I18N.ForceReload" />, including reloads initiated by a subscribed locale-change
-                    notification.
+                    Raised after translations are reloaded, including explicit <see cref="M:STS2RitsuLib.Utils.I18N.ForceReload" /> calls,
+                    subscribed locale-change notifications, and lazily detected locale changes.
                 </para>
-                <para xml:lang="zh-CN">由 <see cref="M:STS2RitsuLib.Utils.I18N.ForceReload" /> 触发，包括已订阅语言变化通知所发起的重新加载。</para>
+                <para xml:lang="zh-CN">
+                    翻译重新加载后触发，包括显式调用 <see cref="M:STS2RitsuLib.Utils.I18N.ForceReload" />、已订阅的语言变化通知，以及延迟检测到的语言变化。
+                </para>
             </summary>
         </member>
         <member name="M:STS2RitsuLib.Utils.I18N.Get(System.String,System.String)">

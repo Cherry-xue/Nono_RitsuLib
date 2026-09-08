@@ -66,7 +66,7 @@ public class OffenseAndDefense() : NonoCard
         //否则,获得格挡并对目标造成伤害
         ArgumentNullException.ThrowIfNull(cardPlay.Target, "cardPlay.Target");
         await CreatureCmd.GainBlock(Owner.Creature, DynamicVars.Block, cardPlay);
-        await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this).Targeting(cardPlay.Target)
+        await DamageCmd.Attack(DynamicVars.Damage.BaseValue).FromCard(this, cardPlay).Targeting(cardPlay.Target)
             .Execute(choiceContext);
     }
     //卡牌效果:魔力增幅次数大于等于5时,选择一张卡牌生成到手牌中,并消耗本卡牌;否则,获得格挡并对目标造成伤害

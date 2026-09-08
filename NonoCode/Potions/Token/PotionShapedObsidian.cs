@@ -22,6 +22,6 @@ public class PotionShapedObsidian : NonoPotions
     protected override async Task OnUse(PlayerChoiceContext choiceContext, Creature target)
     {
         AssertValidForTargetedPotion(target);
-        await CreatureCmd.Damage(choiceContext, target, base.DynamicVars.Damage, base.Owner.Creature, null);
+        await CreatureCmd.Damage(choiceContext, target, DynamicVars.Damage, Owner.Creature, null, null);
     }
 }

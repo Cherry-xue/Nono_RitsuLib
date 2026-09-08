@@ -32,7 +32,7 @@ public class TemperingIncreases : NonoCard
     //定义提示:提示内容为魔力增幅的相关信息
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await DamageCmd.Attack(DynamicVars.CalculatedDamage).FromCard(this).Targeting(cardPlay.Target).Execute(choiceContext);
+        await DamageCmd.Attack(DynamicVars.CalculatedDamage).FromCard(this, cardPlay).Targeting(cardPlay.Target).Execute(choiceContext);
     }
     //卡牌效果:造成伤害数值等于伤害数值+魔力增幅伤害提升数值*魔力增幅次数
     public override async Task AfterCardPlayed(PlayerChoiceContext choiceContext, CardPlay cardPlay)
